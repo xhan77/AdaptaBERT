@@ -1,0 +1,68 @@
+#!/bin/sh
+# makeFiles: create English data files for CoNLL-2003 shared task
+# usage:     makeFiles
+# note:      this script requires the Reuters Corpus cd 1 mounted on /mnt/cdrom
+# 20030204 erikt@uia.ua.ac.be
+
+if [ ! -f /mnt/cdrom/19960822.zip ]
+then
+   echo "cannot find Reuters Corpus cd" >&2
+   exit 1
+fi
+
+if [ "`ls`" != "`ls ../ner`" ]
+then
+   echo "incorrect start directory (expected ner)" >&2
+   exit 1
+fi
+
+/bin/rm -rf tmp
+mkdir tmp
+cd tmp >/dev/null
+
+DIR="../etc"
+
+echo "uncompressing annotation file..." >&2
+gunzip $DIR/tags.eng.raw.gz
+if [ ! -f $DIR/tags.eng.raw ]
+then
+   echo "cannot find $DIR/tags.eng.raw" >&2
+   exit 1
+fi
+
+for date in 19960901 19960902 19960903 19960904 19960905 \
+            19960906 19960907 19960908 19960909 19960910 \
+            19960911 19960912 19960913 19960914 19960915 \
+            19960916 19960917 19960918 19960919 19960920 \
+            19960921 19960922 19960923 19960924 19960925 \
+            19960926 19960927 19960928 19960929 19960930
+do
+   echo "copying files from date $date..." >&2
+   unzip /mnt/cdrom/$date.zip > /dev/null
+   echo "removing all xml codes and tokenizing..." >&2
+   for f in `ls|grep 'xml$'`
+   do
+      ../bin/xml2txt.eng $f
+      rm -f $f
+      f=`echo $f|sed 's/xml$/txt/'`
+      cat $DIR/files.head $f | ../bin/tokenize.eng
+      rm -f $f
+   done
+done |\
+   paste -d' ' - $DIR/tags.eng.raw |\
+   sed 's/^ *$//' |\
+   gzip -c > ../eng.raw.gz
+
+echo "compressing $DIR/tags.eng.raw" >&2
+gzip $DIR/tags.eng.raw
+cd ..
+/bin/rm -rf tmp
+
+if [ -n "`gunzip -c eng.raw.gz | grep '^ [^ ]'`" ]
+then
+   echo "alignment problem in data files" >&2
+   exit 1
+fi
+
+exit 0
+

@@ -1,0 +1,103 @@
+#!/bin/sh
+# makeFiles: create English data files for CoNLL-2003 shared task
+# usage:     makeFiles
+# note:      this script requires the Reuters Corpus cd 1 mounted on /mnt/cdrom
+# 20030204 erikt@uia.ua.ac.be
+
+if [ ! -f /mnt/cdrom/19960822.zip ]
+then
+   echo "cannot find Reuters Corpus cd" >&2
+   exit 1
+fi
+
+if [ "`ls`" != "`ls ../ner`" ]
+then
+   echo "incorrect start directory (expected ner)" >&2
+   exit 1
+fi
+
+/bin/rm -rf tmp
+/bin/rm -rf tmp1
+mkdir tmp1
+cd tmp1 >/dev/null
+
+DIR="../etc"
+
+for date in 19960822 19960823 19960824 19960825 19960826 \
+            19960827 19960828 19960829 19960830 19960831
+do
+   echo "copying files from date $date..."
+   unzip /mnt/cdrom/$date.zip \
+      `grep $date $DIR/files.eng | cut -d/ -f2` > /dev/null
+done
+
+echo "removing all xml codes..."
+../bin/xml2txt.eng *.xml
+
+echo "tokenizing..."
+for file in `ls *.txt|sort -n`
+do
+   cat $DIR/files.head $file | ../bin/tokenize.eng
+done |\
+   paste -d' ' - $DIR/tags.eng |\
+   (sed 's/^ *$//';echo) > tokenized
+
+head -219554 tokenized > ../eng.train
+tail -n +219555 tokenized > ../eng.testa
+
+cd ..
+/bin/rm -rf tmp1
+
+# make eng.testb
+/bin/rm -rf tmp2
+mkdir tmp2
+cd tmp2
+
+DIR="../etc"
+
+for date in 19961206 19961207
+do
+   echo "copying files from date $date..."
+   unzip /mnt/cdrom/$date.zip \
+      `grep $date $DIR/files.eng.testb | cut -d/ -f2` > /dev/null
+done
+
+echo "removing all xml codes..."
+../bin/xml2txt.eng *.xml
+
+echo "tokenizing..."
+for file in `ls *.txt|sort -n`
+do
+   cat $DIR/files.head $file | ../bin/tokenize.eng
+done |\
+   paste -d' ' - $DIR/tags.eng.testb |\
+   (sed 's/^ *$//';echo) > ../eng.testb
+
+cd ..
+/bin/rm -rf tmp2
+
+if [ `wc -l < eng.train` != 219554 -o `wc -l < eng.testa` != 55044 ]
+then
+   echo "incorrect number of lines in data files" >&2
+   exit 1
+fi
+
+if [ -n "`grep '^ [^ ]' eng.train eng.testa`" ]
+then
+   echo "alignment problem in data files" >&2
+   exit 1
+fi
+
+if [ `wc -l < eng.testb` != 50350 ]
+then
+   echo "incorrect number of lines in data file eng.testb" >&2
+   exit 1
+fi
+
+if [ -n "`grep '^ [^ ]' eng.testb`" ]
+then
+   echo "alignment problem in data file eng.testb" >&2
+   exit 1
+fi
+
+exit 0

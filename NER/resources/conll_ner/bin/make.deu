@@ -1,0 +1,63 @@
+#!/bin/sh
+# make.deu: create German data files for CoNLL-2003 shared task
+# usage:    make.deu
+# note:     requires the ECI Multilingual Text cd mounted on /mnt/cdrom
+#           http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC94T5
+# 20030326 erikt@uia.ua.ac.be
+
+CORPUS="/mnt/cdrom/data/eci1/ger03/ger03b05.eci"
+
+if [ ! -f /mnt/cdrom/data/eci1/ger03/ger03b05.eci ]
+then
+   echo "cannot find ECI Multilingual Text cd" >&2
+   exit 1
+fi
+
+if [ "`ls`" != "`ls ../ner`" ]
+then
+   echo "incorrect start directory (expected ner)" >&2
+   exit 1
+fi
+
+/bin/rm -rf tmp
+mkdir tmp
+cd tmp >/dev/null
+
+DIR="../etc"
+TAGS="$DIR/tags.deu"
+TRAIN="deu.train"
+DEV="deu.testa"
+TEST="deu.testb"
+
+echo "tokenizing..."
+head -82105 $CORPUS |\
+   ../bin/tokenize.deu |\
+   grep -v "^ *$" |\
+   sed 's/$/ /' |\
+   tr ' ' '\n' |\
+   ../bin/removeJunk |\
+   paste -d" " - $TAGS |\
+   ../bin/revealLemmas > tokenized
+
+head -220189 tokenized > ../$TRAIN
+tail -n +220190 tokenized | head -54713 > ../$DEV
+tail  -55258 tokenized > ../$TEST
+
+cd ..
+/bin/rm -rf tmp
+
+if [ `wc -l < $TRAIN` != 220189 -o `wc -l < $DEV` != 54713 -o \
+     `wc -l < $TEST`  != 55258 ]
+then
+   echo "incorrect number of lines in data files" >&2
+   exit 1
+fi
+
+if [ -n "`grep '^ [^ ]' $TRAIN $DEV $TEST`" ]
+then
+   echo "alignment problem in data files" >&2
+   exit 1
+fi
+
+exit 0
+

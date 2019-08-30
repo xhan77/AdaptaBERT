@@ -1,0 +1,56 @@
+#!/bin/sh
+# make.deu.raw: create unannotated German data file for CoNLL-2003 shared task
+# usage:    make.deu.raw
+# note:     requires the ECI Multilingual Text cd mounted on /mnt/cdrom
+#           http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC94T5
+# 20030326 erikt@uia.ua.ac.be
+
+CORPUSDIR=/mnt/cdrom/data/eci1/ger03
+CORPUSFILES="$CORPUSDIR/ger03[cdef]0[12345].egz"
+
+if [ ! -d $CORPUSDIR ]
+then
+   echo "cannot find ECI Multilingual Text cd" >&2
+   exit 1
+fi
+
+if [ "`ls`" != "`ls ../ner`" ]
+then
+   echo "incorrect start directory (expected ner)" >&2
+   exit 1
+fi
+
+DIR="etc"
+TAGS="$DIR/tags.deu.raw"
+RAW="deu.raw"
+
+echo "decompressing annotation file..." >&2
+gunzip $TAGS
+
+echo "tokenizing..." >&2
+for FILE in $CORPUSFILES
+do
+   echo "processing $FILE..." >&2
+   cat $FILE |\
+   gunzip -c |\
+   bin/tokenize.deu.raw
+done |\
+   grep -v "^ *$" |\
+   sed 's/ *$/ /' |\
+   tr ' ' '\n' |\
+   bin/removeJunk |\
+   paste -d" " - $TAGS |\
+   bin/revealLemmas |\
+   gzip -c > $RAW.gz
+
+echo "compressing annotation file..." >&2
+gzip $TAGS
+
+if [ -n "`gunzip -c $RAW.gz|grep '^ .'|head -1`" ]
+then
+   echo "alignment problem in data file $RAW.gz" >&2
+   exit 1
+fi
+
+exit 0
+

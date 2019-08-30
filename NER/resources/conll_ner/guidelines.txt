@@ -1,0 +1,31 @@
+* The deadline for the camera-ready version version is April 10, 2003.
+* Style guidelines and example paper can be found at 
+  http://cnts.uia.ac.be/conll2003/ner/
+* Send the files to erikt@uia.ua.ac.be
+* Please include the following in your submission:
+  1. camera-ready version of the paper (ps or pdf)
+  2. Latex source (including references) or plain text version
+  3. result files for the both development sets and both test sets.
+* The final results of your method should be displayed in four 
+  tables in the LEFT column of the final page of the paper. The
+  overall results should be put in the BOTTOM of each table. See
+  the example in http://cnts.uia.ac.be/conll2003/ner/example.pdf
+* If you mention the conference in your paper then please use the
+  string "CoNLL-2003" (notice the hyphen and the complete year).
+* If you want to point to the shared task then please cite the
+  overview paper:
+  Erik F. Tjong Kim Sang and Fien De Meulder, Introduction to the
+  CoNLL-2003 Shared Task: Language Independent Named Entity 
+  Recognition. In: Walter Daelemans and Miles Osborne (eds.),
+  "Proceedings of CoNLL-2003", Edmonton, Canada, 2003.
+  Bibtex:
+
+@inproceedings{conll2003intro,
+   author     = "Tjong Kim Sang, Erik F. and De Meulder, Fien",
+   title      = "Introduction to the CoNLL-2003 Shared Task:
+                 Language-Independent Named Entity Recognition",
+   booktitle  = "Proceedings of CoNLL-2003",
+   editors    = "Walter Daelemans and Miles Osborne",
+   publisher  = "Edmonton, Canada",
+   year       = "2003"
+}

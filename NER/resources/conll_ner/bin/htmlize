@@ -1,0 +1,176 @@
+#!/bin/bash
+# htmlize: add or remove sgml entities for nonstandard ascii chars
+# changes them to or from ISO 8859-1
+# 960506 Erik TKS
+
+# htmlize: create code for html-characters
+function htmlizef
+{
+   sed -e 's/á/\&aacute;/g' -e 's/Á/\&Aacute;/g' \
+       -e 's/â/\&acirc;/g'  -e 's/Â/\&Acirc;/g'  \
+       -e 's/æ/\&aelig;/g'  -e 's/Æ/\&AElig;/g'  \
+       -e 's/à/\&agrave;/g' -e 's/À/\&Agrave;/g' \
+       -e 's/å/\&aring;/g'  -e 's/Å/\&Aring;/g'  \
+       -e 's/ã/\&atilde;/g' -e 's/Ã/\&Atilde;/g' \
+       -e 's/ä/\&auml;/g'   -e 's/Ä/\&Auml;/g'   \
+       -e 's/ç/\&ccedil;/g' -e 's/Ç/\&Ccedil;/g' \
+       -e 's/é/\&eacute;/g' -e 's/É/\&Eacute;/g' \
+       -e 's/ê/\&ecirc;/g'  -e 's/Ê/\&Ecirc;/g'  \
+       -e 's/è/\&egrave;/g' -e 's/È/\&Egrave;/g' \
+       -e 's/ð/\&eth;/g'    -e 's/Ð/\&ETH;/g'    \
+       -e 's/ë/\&euml;/g'   -e 's/Ë/\&Euml;/g'   \
+       -e 's/í/\&iacute;/g' -e 's/Í/\&Iacute;/g' \
+       -e 's/î/\&icirc;/g'  -e 's/Î/\&Icirc;/g'  \
+       -e 's/ì/\&igrave;/g' -e 's/Ì/\&Igrave;/g' \
+       -e 's/ï/\&iuml;/g'   -e 's/Ï/\&Iuml;/g'   \
+       -e 's/ñ/\&ntilde;/g' -e 's/Ñ/\&Ntilde;/g' \
+       -e 's/ó/\&oacute;/g' -e 's/Ó/\&Oacute;/g' \
+       -e 's/ô/\&ocirc;/g'  -e 's/Ô/\&Ocirc;/g'  \
+       -e 's/ò/\&ograve;/g' -e 's/Ò/\&Ograve;/g' \
+       -e 's/ø/\&oslash;/g' -e 's/Ø/\&Oslash;/g' \
+       -e 's/õ/\&otilde;/g' -e 's/Õ/\&Otilde;/g' \
+       -e 's/ö/\&ouml;/g'   -e 's/Ö/\&Ouml;/g'   \
+       -e 's/þ/\&thorn;/g'  -e 's/Þ/\&THORN;/g'  \
+       -e 's/ú/\&uacute;/g' -e 's/Ú/\&Uacute;/g' \
+       -e 's/û/\&ucirc;/g'  -e 's/Û/\&Ucirc;/g'  \
+       -e 's/ù/\&ugrave;/g' -e 's/Ù/\&Ugrave;/g' \
+       -e 's/ü/\&uuml;/g'   -e 's/Ü/\&Uuml;/g'   \
+       -e 's/ý/\&yacute;/g' -e 's/Ý/\&Yacute;/g' \
+       -e 's/ÿ/\&yuml;/g'   -e 's/ß/\&szlig;/g'  \
+       -e 's/¡/\&iexcl;/g'  -e 's/°/\&deg;/g'    \
+       -e 's/©/\&copy;/g'   -e 's/¿/\&iquest;/g' \
+       -e 's/±/\&plusm;/g'  -e 's/º/\&ordm;/g'   \
+       -e 's/ª/\&ordf;/g'   \
+       -e 's///g'
+}
+
+# dehtmlize: create code for html-characters
+function dehtmlizef
+{
+   sed -e 's/\&aacute;/á/g' -e 's/\&Aacute;/Á/g' \
+       -e 's/\&acirc;/â/g'  -e 's/\&Acirc;/Â/g'  \
+       -e 's/\&aelig;/æ/g'  -e 's/\&AElig;/Æ/g'  \
+       -e 's/\&agrave;/à/g' -e 's/\&Agrave;/À/g' \
+       -e 's/\&aring;/å/g'  -e 's/\&Aring;/Å/g'  \
+       -e 's/\&atilde;/ã/g' -e 's/\&Atilde;/Ã/g' \
+       -e 's/\&auml;/ä/g'   -e 's/\&Auml;/Ä/g'   \
+       -e 's/\&ccedil;/ç/g' -e 's/\&Ccedil;/Ç/g' \
+       -e 's/\&eacute;/é/g' -e 's/\&Eacute;/É/g' \
+       -e 's/\&ecirc;/ê/g'  -e 's/\&Ecirc;/Ê/g'  \
+       -e 's/\&egrave;/è/g' -e 's/\&Egrave;/È/g' \
+       -e 's/\&eth;/ð/g'    -e 's/\&ETH;/Ð/g'    \
+       -e 's/\&euml;/ë/g'   -e 's/\&Euml;/Ë/g'   \
+       -e 's/\&iacute;/í/g' -e 's/\&Iacute;/Í/g' \
+       -e 's/\&icirc;/î/g'  -e 's/\&Icirc;/Î/g'  \
+       -e 's/\&igrave;/ì/g' -e 's/\&Igrave;/Ì/g' \
+       -e 's/\&iuml;/ï/g'   -e 's/\&Iuml;/Ï/g'   \
+       -e 's/\&ntilde;/ñ/g' -e 's/\&Ntilde;/Ñ/g' \
+       -e 's/\&oacute;/ó/g' -e 's/\&Oacute;/Ó/g' \
+       -e 's/\&ocirc;/ô/g'  -e 's/\&Ocirc;/Ô/g'  \
+       -e 's/\&ograve;/ò/g' -e 's/\&Ograve;/Ò/g' \
+       -e 's/\&oslash;/ø/g' -e 's/\&Oslash;/Ø/g' \
+       -e 's/\&otilde;/õ/g' -e 's/\&Otilde;/Õ/g' \
+       -e 's/\&ouml;/ö/g'   -e 's/\&Ouml;/Ö/g'   \
+       -e 's/\&thorn;/þ/g'  -e 's/\&THORN;/Þ/g'  \
+       -e 's/\&uacute;/ú/g' -e 's/\&Uacute;/Ú/g' \
+       -e 's/\&ucirc;/û/g'  -e 's/\&Ucirc;/Û/g'  \
+       -e 's/\&ugrave;/ù/g' -e 's/\&Ugrave;/Ù/g' \
+       -e 's/\&uuml;/ü/g'   -e 's/\&Uuml;/Ü/g'   \
+       -e 's/\&yacute;/ý/g' -e 's/\&Yacute;/Ý/g' \
+       -e 's/\&yuml;/ÿ/g'   -e 's/\&szlig;/ß/g'  \
+       -e 's/\&iexcl;/¡/g'  -e 's/\&deg;/°/g'    \
+       -e 's/\&copy;/©/g'   -e 's/\&iquest;/¿/g' \
+       -e 's/\&plusm;/±/g'  -e 's/\&ordm;/º/g'   \
+       -e 's/\&ordf;/ª/g'   -e 's/\&amp;/\&/g'    \
+       -e 's/\&#224;/à/g'   -e 's/\&#192;/À/g' \
+       -e 's/\&#225;/á/g'   -e 's/\&#193;/Á/g' \
+       -e 's/\&#226;/â/g'   -e 's/\&#194;/Â/g' \
+       -e 's/\&#227;/ã/g'   -e 's/\&#195;/Ã/g' \
+       -e 's/\&#228;/ä/g'   -e 's/\&#196;/Ä/g' \
+       -e 's/\&#229;/å/g'   -e 's/\&#197;/Å/g' \
+       -e 's/\&#230;/æ/g'   -e 's/\&#198;/Æ/g' \
+       -e 's/\&#231;/ç/g'   -e 's/\&#199;/Ç/g' \
+       -e 's/\&#232;/è/g'   -e 's/\&#200;/È/g' \
+       -e 's/\&#233;/é/g'   -e 's/\&#201;/É/g' \
+       -e 's/\&#234;/ê/g'   -e 's/\&#202;/Ê/g' \
+       -e 's/\&#235;/ë/g'   -e 's/\&#203;/Ë/g' \
+       -e 's/\&#236;/ì/g'   -e 's/\&#204;/Ì/g' \
+       -e 's/\&#237;/í/g'   -e 's/\&#205;/Í/g' \
+       -e 's/\&#238;/î/g'   -e 's/\&#206;/Î/g' \
+       -e 's/\&#239;/ï/g'   -e 's/\&#207;/Ï/g' \
+       -e 's/\&#240;/ð/g'   -e 's/\&#208;/Ð/g' \
+       -e 's/\&#241;/ñ/g'   -e 's/\&#209;/Ñ/g' \
+       -e 's/\&#242;/ò/g'   -e 's/\&#210;/Ò/g' \
+       -e 's/\&#243;/ó/g'   -e 's/\&#211;/Ó/g' \
+       -e 's/\&#244;/ô/g'   -e 's/\&#212;/Ô/g' \
+       -e 's/\&#245;/õ/g'   -e 's/\&#213;/Õ/g' \
+       -e 's/\&#246;/ö/g'   -e 's/\&#214;/Ö/g' \
+       -e 's/\&#248;/ø/g'   -e 's/\&#216;/Ø/g' \
+       -e 's/\&#249;/ù/g'   -e 's/\&#217;/Ù/g' \
+       -e 's/\&#250;/ú/g'   -e 's/\&#218;/Ú/g' \
+       -e 's/\&#251;/û/g'   -e 's/\&#219;/Û/g' \
+       -e 's/\&#252;/ü/g'   -e 's/\&#220;/Ü/g' \
+       -e 's/\&#253;/ý/g'   -e 's/\&#221;/Ý/g' \
+       -e 's/\&#254;/þ/g'   -e 's/\&#222;/Þ/g' \
+       -e 's/\&#255;/ÿ/g'   -e 's/\&#223;/ß/g' \
+       -e 's/\&#161;/¡/g'   -e 's/\&#186;/°/g' \
+       -e 's/\&#174;/©/g'   -e 's/\&#191;/¿/g' \
+       -e 's/\&#177;/±/g'   -e 's/\&#186;/º/g' \
+       -e 's/\&#170;/ª/g'   -e 's/\&#038;/\&/g' \
+       -e 's/\&ndash;/-/g'  -e 's/\&quot;/"/g' \
+       -e 's/\&laquo;/<</g' -e 's/\&raquo;/>>/g' \
+       -e "s/\&apos;/'/g"   -e 's/\&slash;/\//g' \
+       -e 's///g'
+}
+
+if [ "X$1" = "X-r" ]
+then
+   REVERSE="true"
+   shift
+else
+   REVERSE="false"
+fi
+
+if [ -z "$TMPDIR" ]
+then
+   TMPDIR="/tmp"
+fi
+TMPFILE1="$TMPDIR/htmlize.$$"
+
+if [ -z "$1" ]
+then
+   if [ "$REVERSE" != "true" ]
+   then
+      htmlizef
+   else
+      dehtmlizef
+   fi
+fi
+
+while [ -n "$1" ]
+do
+   if [ ! -w $1 ]
+   then
+      READONLY="true"
+      chmod u+w $1
+   else
+      READONLY="false"
+   fi
+   if [ "$REVERSE" != "true" ]
+   then
+      cat $1 | htmlizef > $TMPFILE1
+   else
+      cat $1 | dehtmlizef > $TMPFILE1
+   fi
+   cp $TMPFILE1 $1
+   if [ "$READONLY" = "true" ]
+   then
+      chmod u-w $1
+   fi
+   READONLY="false"
+   shift
+done
+
+/bin/rm -rf $TMPFILE1 2>/dev/null
+
+exit 0

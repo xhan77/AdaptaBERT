@@ -1,0 +1,127 @@
+#!/usr/bin/perl -w
+# tokenize: tokenize Reuters text files
+# usage:    tokenize < file
+# notes:     separates punctuation signs from words and
+#            puts every sentence on a seprate lines
+# 20021224 erikt@uia.ua.ac.be
+
+%abbrev = ();
+&makeAbbrev();
+%sport = ();
+&makeSport();
+
+LOOP: while (<STDIN>) {
+   $line = $_;
+   chomp($line);
+   if ($line =~ /^\s*$/) { next LOOP; }
+   $line =~ s/^\s*//;
+   $line =~ s/\s*$//;
+   @words = split(/\s+/,$line);
+   $line = "";
+   $i = 0;
+   while ($i <= $#words) {
+      # remove punctuation from start of word
+      if ($words[$i] =~ /^(["'\(\)\[\]\$:;,\/\%])(.+)$/ and 
+          $words[$i] !~ /^'[dsm]$/i and $words[$i] !~ /^'re$/i and
+          $words[$i] !~ /^'ve$/i and $words[$i] !~ /^'ll$/i) {
+         splice(@words,$i,1,$1,$2);
+         $i++;
+      # remove sentence breaking punctuation with quote from end of word
+      } elsif ($words[$i] =~ /^(.+)([?!\.])(["'])$/) {
+         splice(@words,$i,1,$1,"$2$3","\n");
+      # remove non-sentence-breaking punctuation from end of word
+      } elsif ($words[$i] =~ /^(.+)([:;,"'\)\(\[\]\%])$/) {
+         splice(@words,$i,1,$1,$2);
+      # remove sentence-breaking punctuation (not period) from end of word
+      } elsif ($words[$i] =~ /^(.+)([?!])$/ or
+               $words[$i] =~ /^(.+[^\.])(\.\.+)$/) {
+         splice(@words,$i,1,$1,$2,"\n");
+      # separate currency symbol from value
+      } elsif ($words[$i] =~ /^([A-Za-z]+\$)(.+)$/i) {
+         splice(@words,$i,1,$1,$2);
+         $i++;
+      # separate currency symbol other symbols
+      } elsif ($words[$i] =~ /^(.*)-\$(.*)$/i) {
+         splice(@words,$i,1,$1,"-","\$",$2);
+         $i++;
+      # split words like we're did't etcetera
+      } elsif ($words[$i] =~ /^(.+)('re|'ve|'ll|n't|'[dsm])$/i) {
+         splice(@words,$i,1,$1,$2);
+      # split words with punctuation in the middle
+      } elsif ($words[$i] =~ /^(.*[a-z].*)([",\(\)])(.*[a-z].*)$/i) {
+         splice(@words,$i,1,$1,$2,$3);
+      # separate words linked with sequence (>=2) of periods
+      } elsif ($words[$i] =~ /^(.*[^\.])(\.\.+)([^\.].*)$/) {
+         splice(@words,$i,1,"$1$2",$3);
+      # remove initial hyphens from word
+      } elsif ($words[$i] =~ /^(-+)([^\-].*)$/ and $words[$i] ne "-DOCSTART-") {
+         splice(@words,$i,1,$1,$2);
+      # separate sport types and first words in article titles
+      } elsif ($words[$i] =~ /^([A-Za-z]+)-(.*)$/ and defined $sport{$1}) {
+         splice(@words,$i,1,$1,"-",$2);
+      # separate number and word linked with hyphen
+      } elsif ($words[$i] =~ /^([0-9\/]+)-([A-Z][a-z].*)$/) {
+         splice(@words,$i,1,$1,"-",$2);
+      # separate number and word linked with period
+      } elsif ($words[$i] =~ /^([0-9\/]+)\.([A-Z][a-z].*)$/) {
+         splice(@words,$i,1,"$1.",$2);
+      # separate number and word linked with period
+      } elsif ($words[$i] =~ /^(.*)\.-([A-Z][a-z].*)$/) {
+         splice(@words,$i,1,"$1.","-",$2);
+      # separate initial from name
+      } elsif ($words[$i] =~ /^([A-Z]\.)([A-Z][a-z].*)$/) {
+         splice(@words,$i,1,$1,$2);
+      # introduce sentence break after number followed by period
+      } elsif ($i != 0 and $words[$i] =~ /^(.*[0-9])(\.)$/) {
+         splice(@words,$i,1,$1,$2,"\n");
+      # split words containing a slash if they are not a URI
+      } elsif ($words[$i] !~ /^(ht|f)tps*/i and 
+               $words[$i] =~ /[^0-9\/\-]/ and
+               $words[$i] =~ /^(.+)\/(.+)$/) {
+         splice(@words,$i,1,$1,"/",$2);
+      # put sentence break after period if it is not an abbreviation
+      } elsif ($words[$i] =~ /^(.+)(\.)$/ and $words[$i] !~ /^\.+$/ and
+               $words[$i] !~ /^[0-9]+\./) {
+         $word = $1;
+         if ($i != $#words and &abbrev($word)) { $i++; }
+         else { 
+            splice(@words,$i,1,$1,$2,"\n");
+         }
+      } else { $i++; }
+   }
+   if ($words[$#words] ne "\n") { push(@words,"\n"); }
+   $line = join(" ",@words);
+   $line =~ s/ ([?!\.]) \n (["']) / $1 $2 \n /g;
+   $line =~ s/ *\n */\n/g;
+   # print every word on a separate line
+   $line =~ s/ +/ /g;
+   $line =~ s/\n/\n\n/g;
+   $line =~ tr/ /\n/;
+   print $line;
+}
+
+exit(0);
+
+sub makeAbbrev {
+   $abbrev = "apr aug av bldg dec dr calif corp feb fla inc jan jul jun lt ltd mar mr mrs ms nov oct rev sep st vol vols vs";
+   @abbrev = split(/\s+/,$abbrev);
+   foreach $a (@abbrev) { $abbrev{$a} = 1; }
+   return();
+}
+
+sub makeSport {
+   # missing: MOTOR RACING / HORSE RACING / RUGBY UNION
+   $sport = "SOCCER CRICKET BASEBALL TENNIS GOLF CYCLING ATHLETICS BASKETBALL RALLYING SQUASH BOXING MOTORCYCLING BADMINTON MOTOCROSS SWIMMING ROWING HOCKEY REUTERS RTRS UNION RACING BASKETBALLSOCCER LEAGUE Soccer Tennis Cricket";
+   @sport = split(/\s+/,$sport);
+   foreach $a (@sport) { $sport{$a} = 1; }
+   return();
+}
+
+sub abbrev {
+   $word = shift(@_);
+   $word =~ tr/[A-Z]/[a-z]/;
+   if ($word =~ /\./ and $word !~ /[0-9]/) { return(1); };
+   if ($word =~ /^[a-z]$/) { return(1); };
+   return(defined $abbrev{$word});
+}
+

@@ -1,0 +1,41 @@
+#!/usr/bin/perl -w
+# removeJunk: remove junk phrases at the end of Eci German data
+# usage:      removeJunk < file
+# note:       expects one word per line and article boundaries -DOCSTART-
+# 20030227 erikt@uia.ac.be
+
+$prep = ""; # pre-penultimate
+$penu = ""; # penultimate
+$last = ""; # previous
+while (<STDIN>) {
+   $line = $_;
+   if ($prep eq "\n" and $penu =~ /^[a-z\*\-]+\n/ and $last eq "\n") {
+      # remove junk
+      $penu = "";
+      $last = $line;
+   } elsif ($prep eq "\n" and $penu =~ /^\*\n/ and
+            $last =~ /^[a-z\*\-]+\n/ and $line eq "\n") {
+      # remove junk
+      $penu = "";
+      $last = "";
+   } elsif ($prep eq "\&bullet\n" and $penu eq ";\n") {
+      # remove junk
+      $prep = "";
+      $penu = "$last";
+      $last = $line;
+   } elsif ($prep =~ /\&bullet\n/ and $penu eq ";\n") {
+      # remove junk
+      $prep =~ s/.bullet$//;
+      $penu = $last;
+      $last = $line;
+   } else {
+      if ($prep) { print "$prep"; }
+      $prep = $penu;
+      $penu = $last;
+      $last = $line;
+   } 
+}
+if ($prep) { print $prep; }
+if ($penu) { print $penu; }
+if ($last) { print $last; }
+exit(0);

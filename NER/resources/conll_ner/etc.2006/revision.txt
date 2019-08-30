@@ -1,0 +1,49 @@
+Revision of the German CoNLL 2003 Named Entity Corpus
+=====================================================
+
+2006-01-23
+
+Tom Hombergs (tom.hombergs@fernuni-hagen.de)
+Sven Hartrumpf (sven.hartrumpf@fernuni-hagen.de)
+
+1. Procedure
+2. Major Changes
+3. Files
+
+1. Procedure
+------------
+First of all, the annotations have been mapped to the BIO format. The original
+annotation used a tagset which is here called "IO-tagset", marking tokens inside
+a NE-phrase with I-XXX and tokens outside a NE-phrase O. The tag B-XXX was only
+used to mark the first token of a phrase if it was adjacent to a previous
+NE-phrase. This tagset has been mapped by the script io2bio.pl to the
+BIO-tagset, where all phrase-starting tokens are marked B-XXX. This step has
+beentaken to make annotation easier for learning tools as well as human 
+annotators. In a first run-through, all tokens inside a named entity phrase have
+been manually checked and their annotation changed if necessary. By this,
+false positives as well as wrong classifications could be corrected. In a second
+run-through, the data has been classified by a NER-Tool. The classified data has
+then been manually checked for false negatives (tokens which the tool recognized
+correctly as part of a NE but which were not marked as such in the data). These
+have been corrected if necessary. The number of corrections in this second
+run-through was rather low compared to the first.
+
+2. Major Changes
+----------------
+By far the most changes were made in the named entity class MISC:
+ - adjectives derived from names ("deutsch") are no longer marked
+ - nouns derived from names ("Frankfurter") are no longer marked
+ - compounds which contain a name, but are not a name in itself
+   ("SPD-Vorsitzender") are no longer marked
+
+The rest of the changes were mainly simple corrections or changes to conserve
+consistency.
+
+3. Files
+--------
+The directory "original" contains the original annotated corpora as made
+available for CoNLL 2003. The subdirectory "revision" contains the files with
+revised annotation. The subdirectories "BIO-tagset" and "IO-tagset" contain the
+same annotation just with a different tagset.The revision of the annotation was
+made after mapping from IO to BIO-tagset, so the revised files are only
+available in BIO-tagset.

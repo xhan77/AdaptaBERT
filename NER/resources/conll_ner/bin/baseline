@@ -1,0 +1,180 @@
+#!/usr/bin/perl -w
+# baseline: compute a baseline classification for named entities
+# usage:    baseline [-u] [nbr] train test
+# notes:    option -u: only classify entities with unique class in train
+#           method used: only tag phrases present in training data
+#                        greedy search: tag longest possible phrases
+#                        train and test are supposed to be in
+#                        CoNLL-2002 format
+# url:      http://lcg-www.uia.ac.be/conll2002/ner/
+# 20020524 erikt@uia.ua.ac.be
+
+use strict;
+
+my (
+   $i,$j,$k,
+   $ambiguous,$bestCat,$bestCatNbr,$buffer,$bufferType,$debug,
+   $key,$line,$onlyUniq,$tag,$test,$train,$type,$uniqNbr,$word,
+   @classes,@test,@words,
+   %hash,    # hash of hashes for categories of word sequences
+   %outWords # hash of words that appear outside of entities
+);
+
+$onlyUniq = 0;
+$uniqNbr = 0;
+$debug = 0;
+if (defined $ARGV[0] and $ARGV[0] eq "-d") { 
+   $debug = 1;
+   shift(@ARGV);
+}
+if (defined $ARGV[0] and $ARGV[0] eq "-u") { 
+   $onlyUniq = 1;
+   shift(@ARGV);
+}
+if (defined $ARGV[0] and $ARGV[0] =~ /^[0-9]+$/) {
+   $uniqNbr = shift(@ARGV);
+}  
+if ($#ARGV != 1) { die "usage: baseline [-u] [nbr] train test\n"; }
+$train = shift(@ARGV);
+$test = shift(@ARGV);
+
+# read train file
+$buffer = "";
+$bufferType = "";
+%hash = ();
+open(INFILE,$train);
+while (<INFILE>) {
+   $line = $_;
+   chomp($line);
+   $line = "-X- O" if ($line =~ /^\s*$/);
+   @words = split(/\s+/,$line);
+   $word = shift(@words); # word is first item on line
+   $tag = pop(@words);    # tag is last item on line
+   if ($tag eq "O") { $outWords{$word} = 1; }
+   $type = $tag;
+   $type =~ s/^.*-//;
+   # if previous tagged phrase is complete
+   if ($buffer and 
+       ($type eq "O" or $type ne $bufferType or $tag =~ /^B/)) {
+      if (not defined $hash{$buffer}{$bufferType}) { 
+         $hash{$buffer}{$bufferType} = 1; 
+      } else { $hash{$buffer}{$bufferType}++; }
+      @words = split(/\s+/,$buffer);
+      pop(@words);
+      # store all prefixes of entity in hash with tag PREFIX
+      while (@words) {
+         $line = join(" ",@words);
+         if (not defined $hash{$line}{"PREFIX"}) { 
+            $hash{$line}{"PREFIX"} = 1; 
+         } else { $hash{$line}{"PREFIX"}++; }
+         pop(@words);
+      }
+      $buffer = "";
+      $bufferType = "";
+   }
+   # append current word to buffer if we are processing a tagged phrase
+   if ($tag ne "O") {
+      $buffer = $buffer ? "$buffer $word" : $word;
+      $bufferType = $bufferType ? $bufferType : $type;
+   }
+}
+if ($buffer) {
+   if (not defined $hash{$buffer}{$bufferType}) { 
+      $hash{$buffer}{$bufferType} = 1; 
+   } else { $hash{$buffer}{$bufferType}++; }
+   @words = split(/\s+/,$buffer);
+   pop(@words);
+   # store all prefixes of entity in hash with tag PREFIX
+   while (@words) {
+      $line = join(" ",@words);
+      if (not defined $hash{$line}{"PREFIX"}) { 
+         $hash{$line}{"PREFIX"} = 1; 
+      } else { $hash{$line}{"PREFIX"}++; }
+      pop(@words);
+   }
+}
+close(INFILE);
+
+# read test file
+@test = ();
+open(INFILE,$test) or die "cannot open $test\n";
+while (<INFILE>) {
+   $line = $_;
+   chomp($line);
+   push(@test,$line);
+}
+close(INFILE);
+
+# assign entity tags to test file
+$i = 0;
+LOOP: while ($i<=$#test) {
+   if (not $test[$i]) { print "\n"; $i++; next LOOP; }
+   @words = split(/\s+/,$test[$i]);
+   if (not defined %{$hash{$words[0]}}) { 
+      print "$test[$i] O\n"; 
+      $i++;
+   } else {
+      $j = 0;
+      $buffer = "$words[0]";
+      # add words to phrase while we are in a phrase prefix and 
+      # the next word exists and is not a line break
+      while (defined $hash{$buffer}{"PREFIX"} and
+             $i+$j < $#test and $test[$i+$j+1]) {
+         $j++;
+         @words = split(/\s+/,$test[$i+$j]);
+         $buffer .= " $words[0]";
+      }
+      # remove words from entity
+      @classes = defined $hash{$buffer} ? %{$hash{$buffer}}: ();
+      # note: classes always contains pairs tag/amount
+      # remove words from phrase while current phrase is nonempty and 
+      # does not contain a phrase or is only a prefix
+      while ($buffer and 
+             ($#classes < 0 or
+              ($#classes == 1 and defined $hash{$buffer}{"PREFIX"})) or
+              ($onlyUniq and 
+               ($#classes > 3 or
+                ($#classes > 1 and not defined $hash{$buffer}{"PREFIX"})))) {
+         $j--;
+         @words =  split(/\s+/,$buffer);
+         pop(@words);
+         $buffer = join(" ",@words);
+         @classes = defined $hash{$buffer} ? %{$hash{$buffer}}: ();
+      }
+      if ($debug) {
+         # show phrase with possible classification and nbr of examples
+         print ">>> $#classes $buffer ";
+         foreach $i (@classes) { print "# $i "; }
+         print "\n";
+      }
+      # if no complete entity was found
+      if (not $buffer) { 
+         print "$test[$i] O\n"; 
+         $i++; 
+         next LOOP; 
+      }
+      # get category
+      $bestCat = "UNDEF";
+      $bestCatNbr = 0;
+      foreach $key (sort keys %{$hash{$buffer}}) {
+         if ($key ne "PREFIX" and $hash{$buffer}{$key} > $bestCatNbr) {
+            $bestCatNbr = $hash{$buffer}{$key};
+            $bestCat = $key;
+         }
+      }
+      # does the phrase occur frequently enough in the training data?
+      if ($bestCatNbr < $uniqNbr) { 
+         print "$test[$i] O\n"; 
+         $i++; 
+         next LOOP; 
+      }
+      for ($k=$i;$k<=$i+$j;$k++) {
+         if ($k == $i) { print "$test[$k] B-$bestCat\n"; }
+         else { print "$test[$k] I-$bestCat\n"; }
+      }
+      $i += $j+1;
+   }
+}
+
+exit(0);
+

@@ -1,0 +1,3439 @@
+ORG 11.11.11
+ORG 11.11.11.
+ORG 1860 München
+ORG 3Es / Lieshout
+ORG 3M
+ORG 3VO
+ORG 4FM
+ORG 90e Pantserdivisie
+ORG AAC
+ORG AAC 1899
+ORG AAC Cosmos
+ORG AA Drinks
+ORG AA Gent
+ORG Aalberts
+ORG Aarhus
+ORG ABB
+ORG Abba
+ORG ABC
+ORG ABC Containerline
+ORG Aberdeen
+ORG ABN Amro
+ORG ABN-Amro
+ORG ABO
+ORG Abvakabo
+ORG AbvaKabo
+ORG AbvaKabo FNV
+ORG ABVV
+ORG ABX
+ORG Academica
+ORG Academie
+ORG ACC
+ORG Accell Group
+ORG Acco
+ORG AC / DC
+ORG Achilles 1894
+ORG Achilles'29
+ORG Achmea
+ORG Ackermans & van Haaren
+ORG AC Milan
+ORG ACMP
+ORG ACOD
+ORG Acom
+ORG ACOM
+ORG AC Parma
+ORG Acqua & Sapone
+ORG AC Torino
+ORG ACV
+ORG ACV Energie
+ORG ACW
+ORG AD
+ORG A'dam Tigers
+ORG Adanaspor
+ORG Adecco
+ORG Aden-Abyan
+ORG Aditel
+ORG Admiraliteit
+ORG ADO
+ORG ADO'20
+ORG ADO Den Haag
+ORG ADO Den Hg
+ORG Aegon
+ORG AEK Athene
+ORG AEL
+ORG Aeroflot
+ORG AFC
+ORG AFMP
+ORG AFP
+ORG Afrikaanse Unie
+ORG Afrika-instituut
+ORG AFSSA
+ORG Aftonbladet
+ORG AG2R
+ORG AG2R Prévoyance
+ORG Agalev
+ORG Agalev Borsbeek Sociaal
+ORG Agfa
+ORG Agfa Gevaert
+ORG Agfa-Gevaert
+ORG AGOVV
+ORG Agusta
+ORG AH
+ORG AHA
+ORG AHC Kolping
+ORG AHC / Kolping
+ORG AH Mobiel
+ORG Ahold
+ORG AID
+ORG AIK Solna
+ORG Aino
+ORG Airbus
+ORG Airdrie United
+ORG Air France
+ORG Air Holland
+ORG Air Katanga
+ORG AirLib
+ORG Air Lib
+ORG Air Malta
+ORG Air New Zealand
+ORG Air Scotland
+ORG Airspray
+ORG Airstop
+ORG AIT / FIA
+ORG AIVD
+ORG Ajaccio
+ORG AJ Auxerre
+ORG Ajax
+ORG AJW
+ORG A.J. Walter Aviation
+ORG AJ Walter Aviation
+ORG AKN
+ORG AKP
+ORG AK-partij
+ORG Akratitos
+ORG Akzo
+ORG Akzo Nobel
+ORG AKZO Nobel
+ORG Ala dos Namorados
+ORG al-Alami
+ORG Al-Alami
+ORG Alanheri
+ORG Alan Parsons Project
+ORG al-Aqsa
+ORG Al-Aqsa
+ORG al-Aqsa Brigade
+ORG al-Aqsa Brigades
+ORG al-Aqsa Martelaren Brigades
+ORG Albert Heijn
+ORG Albron
+ORG Alcatel
+ORG Alcoa
+ORG Alcom / Capelle
+ORG Aldel
+ORG Aldi
+ORG al Fatah
+ORG Algemeen Dagblad
+ORG ALGEMEEN DAGBLAD
+ORG Algemeen Nederlands Verbond
+ORG Algemene Assemblee
+ORG Algemene Inlichtingen- en Veiligheidsdienst
+ORG Algemene Inspectie Dienst
+ORG Algemene Onderwijsbond
+ORG Algemene Rekenkamer
+ORG Algemene Zaken
+ORG Alice in Chains
+ORG Alitalia
+ORG Al-Ittifaq
+ORG Al Ittihad
+ORG al Jazeera
+ORG al-Jazeera
+ORG Al-Jazeera
+ORG All England Club
+ORG Allianz
+ORG Allianz AG
+ORG Almanij
+ORG Almere Vandaag
+ORG al-Qaeda
+ORG Al Qaeda
+ORG Al-Qaeda
+ORG al-Qaida
+ORG al'Qaida
+ORG Al-Qassam-brigades
+ORG al-Queda
+ORG Altay Izmir
+ORG Amazing Stroopwafels
+ORG Amazon.com
+ORG American Film Institute
+ORG American Society Conservation International
+ORG America Online
+ORG Amerikaanse Hartvereniging
+ORG Amerikaanse Patentenbureau
+ORG AMEV
+ORG Amica Wronki
+ORG Amnesty
+ORG Amnesty International
+ORG Amstelland
+ORG Amsterdam Commodities
+ORG Amsterdamse AC
+ORG Amsterdam Tigers
+ORG AMVJ
+ORG Anaheim Angels
+ORG ANC
+ORG Ancona
+ORG AND IP
+ORG Angels
+ORG Animals
+ORG Animo
+ORG Ankaragücü
+ORG Anne Frank Stichting
+ORG ANP
+ORG Antalya Werder Bremen
+ORG Antonov
+ORG Antwerp
+ORG ANVV
+ORG ANWB
+ORG AOb
+ORG AOL
+ORG Aol Time Warner
+ORG AOT
+ORG AP
+ORG APEC
+ORG Aphex Twin
+ORG Apoel Nicosia
+ORG Appelgroep Westerbork
+ORG Aquafin
+ORG Arabische Liga
+ORG Arabisch Europese Liga
+ORG Arabisch-Europese Liga
+ORG Arbeiderspartij
+ORG Arbeidsinspectie
+ORG Arbeidspartij
+ORG Arbitragehof
+ORG Arboned Westa
+ORG Arcadis
+ORG Arcelor
+ORG Archigram-groep
+ORG ARD
+ORG Argon
+ORG Ariane
+ORG Arianespace
+ORG Arid
+ORG Arke / Pollux
+ORG Arminia Bielefeld
+ORG Arrows
+ORG Arsenal
+ORG Arte
+ORG Artsen zonder Grenzen
+ORG Asda
+ORG Asean
+ORG ASEC Mimosas
+ORG Ashanti Exploration
+ORG ASKV Linz
+ORG ASM
+ORG ASMI
+ORG ASM International
+ORG ASML
+ORG ASM Lithography
+ORG AS Monaco
+ORG ASR Bank
+ORG AS Roma
+ORG ASRV Ascrum
+ORG Associated weavers
+ORG Associated Weavers
+ORG Associatie van Zuidoost-Aziatische Naties
+ORG Aston Villa
+ORG Astrium
+ORG Astronauts
+ORG ASV Dronten
+ORG ASWH
+ORG AT5
+ORG Atalanta
+ORG Atalanta Bergamo
+ORG Atheneum
+ORG Athletic Bilbao
+ORG Athletic de Bilbao
+ORG Athlon
+ORG Atlanta Braves
+ORG Atlantida FM
+ORG Atlético
+ORG Atletico Junior
+ORG Atletico Madrid
+ORG Atletiek Vlaanderen
+ORG Atomic Kitten
+ORG Atoomagentschap
+ORG Atoomenergie Agentschap
+ORG ATP
+ORG AT&T
+ORG Attac
+ORG ATV
+ORG Audi
+ORG Aum-sekte
+ORG Australian Brandenburg Orchestra
+ORG Austria Wien
+ORG Auto , Motor und Sport
+ORG Autonome Universiteit van Mexico-stad
+ORG Autoriteit Financiele Markten
+ORG Auxerre
+ORG Auximines
+ORG AVBB
+ORG AVD
+ORG AVEM
+ORG Avero
+ORG Avia
+ORG AVRO
+ORG AXA
+ORG Axa Stenman
+ORG AXA Stenman
+ORG Axel
+ORG Axias / Tachos
+ORG AZ
+ORG Aziatisch Monetair Fonds
+ORG AZ&PC
+ORG Azzurri
+ORG Baan
+ORG BACC
+ORG Backstreet Boys
+ORG BAe Systems
+ORG Balkan
+ORG Balkenende I
+ORG Ballast Nedam
+ORG Ballast Nedam Infra Noord Oost BV
+ORG BAM
+ORG Bam NBM
+ORG BAM NBM
+ORG Banesto
+ORG Bank Austria
+ORG Bank Degroof
+ORG Bankgiro
+ORG Bankgiroloterij
+ORG BankgiroLoterij
+ORG Bankinvest IT Venture
+ORG Banksys
+ORG Bank van de Post
+ORG BAR
+ORG Barca
+ORG Barça
+ORG Barcelona
+ORG Bari
+ORG Baronie
+ORG Barragán Foundation
+ORG BASE
+ORG Basisschool van het Gemeenschapsonderwijs
+ORG Bassie & Adriaan
+ORG Bastia
+ORG Bataven
+ORG Batenburg
+ORG Bauduin
+ORG Bauduin-Cambier
+ORG Bayer Leverkusen
+ORG Bayern
+ORG Bayern München
+ORG BBC
+ORG BBC 1
+ORG BBC 2
+ORG BBL
+ORG BCA
+ORG BC Amersfoort
+ORG BCC
+ORG BC Crash
+ORG BC De Lombard
+ORG BC Duinwijck
+ORG BC Het Buitenhof
+ORG BCN
+ORG BC Omniworld
+ORG BC Pegasus
+ORG BC Shooters
+ORG BC Smashing
+ORG BC Star
+ORG BC 't Onstein
+ORG BC Utrecht
+ORG BDBH
+ORG Beach Boys
+ORG Beatles
+ORG Bechstein
+ORG Begemann
+ORG Begemann Begaclaim
+ORG Begroting
+ORG Beijing Evening News
+ORG Beijing Platform for Action
+ORG Beira Mar
+ORG Belangenvereniging Tankstations
+ORG Belenenses
+ORG Belga
+ORG Belgacom
+ORG Belgavox
+ORG Belgian Skyshops
+ORG Belgische Vereniging van Banken
+ORG Belgisch Olympisch Comité
+ORG Belgo-Katanga
+ORG Beltug
+ORG Bende van Nijvel
+ORG Be-Ne-volence International
+ORG Be-Ne-volence International Nederland
+ORG Benfica
+ORG Be Quick'28
+ORG Bergen
+ORG Berliner Elektrizitätswerken
+ORG Beroepsbond van de Belgische Filmpers
+ORG BE Semiconductor
+ORG BESI
+ORG Besiktas
+ORG Bestuurskunde
+ORG BETA
+ORG Beter Bed
+ORG Bettie Serveert
+ORG Betty Goes Green
+ORG Bever
+ORG Beveren
+ORG Beweging
+ORG BFC
+ORG BIAC
+ORG Big Mat
+ORG Bild
+ORG Bild am Sonntag
+ORG Binnenlandse Aangelegenheden
+ORG Binnenlandse Zaken
+ORG Binnenlandse Zaken en Koninkrijkrelaties
+ORG Binnenlandse Zaken en Koninkrijksrelaties
+ORG Biohazard Solutions
+ORG Biologische Bakkers Brigade
+ORG Birmingham City
+ORG BIS
+ORG BiZa
+ORG BJP
+ORG BKVB
+ORG Blackburn
+ORG Blackburn Rovers
+ORG Black Sabbath
+ORG Blauw Wit
+ORG Bloemendaal
+ORG Blof
+ORG Blok
+ORG Blondie
+ORG Bloomberg
+ORG Blue Fox
+ORG Blur
+ORG Blydenstein-Willink
+ORG BMC / SSS
+ORG BMG Ariola
+ORG BMW
+ORG BNN
+ORG BNP
+ORG BNP Paribas
+ORG Boavista
+ORG BOB
+ORG Body Fit Amsterdam
+ORG Boedapest SE
+ORG Boeing
+ORG Boelwerf
+ORG Boerenbond
+ORG BOIC
+ORG BoinK
+ORG Bölkow
+ORG Bologna
+ORG Bolton Wanderers
+ORG Bombay Symphony Orchestra
+ORG Bondsdag
+ORG Bondsraad
+ORG Bonjour
+ORG Bonne Soirée
+ORG Boo.com
+ORG Boretti / Amsterdam
+ORG Borussia Dortmund
+ORG Borussia Mvnchengladbach
+ORG Bosch
+ORG Boskalis
+ORG Bouwcoach / Bevo
+ORG Bouwfonds Wonen
+ORG BouwNed
+ORG Bouwnijverheid
+ORG Bouygues
+ORG Bouygues Telecom
+ORG Bovag
+ORG BP Amoco
+ORG Bral
+ORG Branchevereniging Consumentenvuurwerk Nederland
+ORG Brandenburg
+ORG Breda Basketball
+ORG Brederode-imperium
+ORG Bremen
+ORG Brent
+ORG Brepols
+ORG Brill
+ORG Brink's
+ORG Brink's Ziegler België
+ORG British Aerospace
+ORG British Airways
+ORG British Medical Journal
+ORG British Telecom
+ORG Broederlijk Delen
+ORG Bröndby IF
+ORG BRT
+ORG BRT1
+ORG BRTN
+ORG Brunel
+ORG Brunel International
+ORG Brussels Parlement
+ORG BS Weert
+ORG BTR
+ORG Budejovice
+ORG Buderus
+ORG Buhrmann
+ORG Buitenlandse Handel
+ORG Buitenlandse Zaken
+ORG Bulgaars-Orthodoxe Kerk
+ORG BUMA
+ORG Buma/Stemra
+ORG Burgerbelangen Gemeente Emmen
+ORG Burger King
+ORG Burgerzaken
+ORG Burgman Heybroek
+ORG Bursaspor
+ORG Business Nieuws Radio
+ORG BuZa
+ORG BVD
+ORG BVE-raad
+ORG BV Leiderdorp
+ORG BV Lely
+ORG BV Veendam
+ORG B & W
+ORG B&W
+ORG BZC Brandenburg
+ORG BZK
+ORG CA
+ORG C&A
+ORG CAB Madeira
+ORG Cadbury Schweppes
+ORG Cagliari
+ORG Calamiteitenfonds Reizen
+ORG Calcit Kamnik
+ORG Callahan
+ORG Calvé-Delft
+ORG Calvin Klein
+ORG Cambuur L.
+ORG Cambuur / Leeuwarden
+ORG Cambuur-Leeuwarden
+ORG Cambuur / L'w .
+ORG Cambuur / L'ward .
+ORG Cambuur / L'warden
+ORG Campbell Soup
+ORG Canal +
+ORG Canal + Technologies
+ORG Canas
+ORG Candover
+ORG Cantillon
+ORG Cantina Tolo
+ORG Canvas
+ORG CANVAS
+ORG Cap Gemini
+ORG Cap Gemini S.A.
+ORG Caprabo Lleida
+ORG Cardinals
+ORG Cardio Control
+ORG Carling
+ORG Carlsberg
+ORG Carlton
+ORG Carlyle
+ORG Carp
+ORG CAS
+ORG Casablance Valley
+ORG Casema
+ORG CASPAR
+ORG Castle Hill
+ORG Castricumse RC
+ORG Cavaliers
+ORG CBC
+ORG CBR
+ORG CBS
+ORG CCOD
+ORG CDA
+ORG CD Alaves
+ORG CDH
+ORG CDP Capital Technologies
+ORG CDU
+ORG CDU / CSU
+ORG CDV
+ORG CD & V
+ORG CD&V
+ORG CEB
+ORG CEB Noordkop
+ORG CEB / Noordkop
+ORG Cedaf
+ORG Cegetel
+ORG Celera
+ORG Celera Genomics
+ORG Celera Genomics Group
+ORG Celta de Vigo
+ORG Celtic
+ORG Celtic Glasgow
+ORG Censydiam
+ORG Centraal Beheer
+ORG Centraal Bureau Levensmiddelen
+ORG Centraal Bureau voor de Statistiek
+ORG Centraal Economische Commissie
+ORG Centraal Joods Overleg
+ORG Centraal Orgaan opvang Asielzoekers
+ORG Centraal Planbureau
+ORG Centrale Bank
+ORG Centrale Organisatie voor de Vleessector
+ORG Centric KSI
+ORG Centrum voor Gelijke Kansen
+ORG Centrum voor gelijkheid van kansen en racismebestrijding
+ORG Centrum voor Nederlandse Taal en Spraak
+ORG CERN
+ORG Certipost
+ORG Ceteco
+ORG CFDA
+ORG CFR
+ORG CFU
+ORG CGIL
+ORG Channel 2
+ORG Channel Four
+ORG Charleroi
+ORG Charlton Athletic
+ORG Charta 77
+ORG Chaudfontaine
+ORG Ché
+ORG Chebbab
+ORG Chelsea
+ORG Chianti Classico
+ORG Chicago Bulls
+ORG Chievo
+ORG Chievo Verona
+ORG Child Focus
+ORG Chinese patriottische kerk
+ORG Chiro
+ORG CH Jaca
+ORG Cholet
+ORG CHP
+ORG Christelijke Onderwijscentrale
+ORG ChristenUnie
+ORG Christie's
+ORG CIA
+ORG Cinélibre
+ORG Cisco
+ORG Cisco Systems
+ORG CITES
+ORG Citigroup
+ORG CITO
+ORG Citroen
+ORG City Bird
+ORG CIVA
+ORG Civiele Bescherming Brussel
+ORG CL
+ORG Clare Valley
+ORG Clickx
+ORG Clickx Magazine
+ORG Clonaid
+ORG Clouseau
+ORG CLT Ufa
+ORG Club 48
+ORG Club am Alster
+ORG Club Brugge
+ORG CMG
+ORG CMO
+ORG CNN
+ORG CNTS
+ORG CNV
+ORG CNV Publieke Zaak
+ORG COA
+ORG COBO
+ORG COC
+ORG Coca Cola
+ORG Coca-Cola
+ORG Cockerill
+ORG Cockerill-Sambre
+ORG Cofidis
+ORG Cofinimmo
+ORG Coflexip
+ORG Coker-bende
+ORG Cokeries d'Anderlues
+ORG College
+ORG College Tarieven Gezondheidszorg
+ORG College van Beroep
+ORG College van Senioren
+ORG College voor Zorgverzekeringen
+ORG Colli Friuli
+ORG Colruyt
+ORG Colt
+ORG Columbia-universiteit
+ORG Comité I
+ORG Comité P
+ORG Comités de Pouvoir Populaires
+ORG Comité van de Waakzaamheid
+ORG Commerzbank
+ORG Commissie
+ORG commissie-Bakker
+ORG Commissie Berkhout
+ORG Commissie Financiën
+ORG commissie-Lumumba
+ORG commissie-Van den Haak
+ORG Commissie voor Buitenlandse Zaken
+ORG Commissie voor Nederlands-Antilliaanse en Arubaanse Zaken
+ORG Commonwealth
+ORG Communistische Partij
+ORG Como
+ORG CompuServe
+ORG Computer Crime Unit
+ORG Concentra
+ORG Concertgebouw Orkest
+ORG Confederation Paysanne
+ORG Congres
+ORG Congrespartij
+ORG Conseco
+ORG Conservatieven
+ORG Conservatieven.nl
+ORG Conservatieven. nl
+ORG Conservatieve Partij
+ORG Conservatorium
+ORG Conservatrix / Velo
+ORG Constituante
+ORG Constitutioneel Hof
+ORG Constitutionele Hof
+ORG Consumentenbond
+ORG  Consument en Veiligheid
+ORG Contactorgaan Moslims en Overheid
+ORG Continental Club
+ORG Continental Foods
+ORG Conventie
+ORG Coopers & Lybrand
+ORG Copaco
+ORG Corio
+ORG Corriere della Sera
+ORG Corriere della Sport
+ORG Coruna
+ORG Coruña
+ORG Corus
+ORG Corus Group
+ORG Cosmopolitan
+ORG Coster
+ORG Coster Diamonds
+ORG Cost Reduction Consultancy
+ORG Council of Fashion Designers of America
+ORG Counting Crows
+ORG COV
+ORG CPB
+ORG CPEX
+ORG CPP
+ORG Cranberries
+ORG CRB
+ORG Credit Agricole
+ORG Crédit Agricole
+ORG Credit Lyonnais
+ORG Crédit Lyonnais
+ORG Credit Suisse First Boston
+ORG Cronos
+ORG Crosspoints
+ORG Crown van Gelder
+ORG Crown Van Gelder
+ORG CRS
+ORG Crucell
+ORG Cruno
+ORG Crystal Kelly
+ORG CSA
+ORG CSC
+ORG CSC-Tiscali
+ORG CS Jodoigne
+ORG CSKA
+ORG CSKA Moskou
+ORG CSM
+ORG CSN
+ORG CSS
+ORG CSS Holding
+ORG CSU
+ORG CSV Apeldoorn
+ORG C/TAC
+ORG CU
+ORG Cue Palace
+ORG Cue Palace Almelo
+ORG Culture Records
+ORG Cultuur
+ORG Cultuur en Jongerenbeleid
+ORG Cultuur en Media
+ORG Cupido
+ORG Cure
+ORG Cutting Crew
+ORG CVG
+ORG CVP
+ORG CVZ
+ORG D66
+ORG Dadiflor
+ORG Daily Express
+ORG Daily Star
+ORG DaimlerChrysler
+ORG Daimler-Chrysler
+ORG Dallas Burn
+ORG Dallas Cowboys
+ORG Dalto / HumanNet
+ORG DAT
+ORG Davis Cup-team
+ORG DAX
+ORG DC United
+ORG DEA
+ORG De Artsenkrant
+ORG De Bezige Bij
+ORG Decca L'Oiseau-Lyre
+ORG De Dijk
+ORG Deens Cultureel Centrum
+ORG Deep Purple
+ORG Deetos / PrimCom
+ORG Def
+ORG Defence for Children
+ORG Defence for Children International Nederland
+ORG Defensie
+ORG Defensie-commissie
+ORG Deficom
+ORG De Financieel Economische Tijd
+ORG De Financieel-Economische Tijd
+ORG DeGraafschap
+ORG De Graafschap
+ORG Degremont
+ORG De Groene Amsterdammer
+ORG Degroof
+ORG De Groot / E & O
+ORG De Groot / E&O
+ORG de Haantjes
+ORG De Halter Utrecht
+ORG De Ham
+ORG De Journalist
+ORG De Kikvorsen
+ORG Delatour
+ORG De Lege Geaen
+ORG Delft Instruments
+ORG Delhaize
+ORG Delhaize America
+ORG De Lijn
+ORG Deloitte & Touche
+ORG De Lombard
+ORG Delsey
+ORG Delsey Airlines
+ORG Delta Force
+ORG Delta Sport
+ORG De Meervogels
+ORG De Mens
+ORG De Mérode
+ORG DeMix
+ORG Democraten
+ORG Democratische Partij
+ORG Democratische Volkspartij
+ORG De Morgen
+ORG De Nachtwacht
+ORG Den Bosch
+ORG De Nederlandsche Bank
+ORG De Nieuwe Revu
+ORG Denizlispor
+ORG De Persgroep
+ORG Deportivo
+ORG Deportivo Cali
+ORG Deportivo Coruna
+ORG Deportivo la Coruna
+ORG Deportivo La Coruna
+ORG De Post
+ORG De Prom
+ORG Derde Infanterie Divisie
+ORG De Roovers
+ORG Der Spiegel
+ORG Der Standard
+ORG Der Tagesspiegel
+ORG De Standaard
+ORG de Telegraaf
+ORG De Telegraaf
+ORG DE TELEGRAAF
+ORG De Treffers
+ORG Detroit Red Wings
+ORG Deuren
+ORG dEUS
+ORG Deutsche Bank
+ORG Deutsche Börse
+ORG Deutsche Grammophon
+ORG Deutsche Mannschaft
+ORG Deutsche Post
+ORG Deutsche Telekom
+ORG Developmental Psychology
+ORG Deventer Ziekenhuis
+ORG de Volkskrant
+ORG De Volkskrant
+ORG DE VOLKSKRANT
+ORG De Vos-Lemmens
+ORG De Vries Robbé
+ORG Dexia
+ORG Dexia Bank België
+ORG Dexxon / BZ&PC
+ORG De Zijl-LGB
+ORG DGF Stoess
+ORG DHL
+ORG Diamant / Tilburg
+ORG Diamondbacks
+ORG Dico International
+ORG Die Haghe
+ORG Dienst Toerisme Duitsland
+ORG Dienst voor de Transportveiligheid
+ORG Die Presse
+ORG Dierenartsen zonder Grenzen
+ORG Dierenbescherming
+ORG D'Ieteren
+ORG Die Welt
+ORG Digital City
+ORG Digital Nation
+ORG Dijkoraad / K 7
+ORG Dijkoraad / Kwiek
+ORG Dimarso
+ORG Dimplex / Ekspalvo
+ORG Dinamo Kiev
+ORG Dinamo Tirana
+ORG Dinamo Zagreb
+ORG Direkt Mail / BFC
+ORG DirektMail / BFC
+ORG DireStraits
+ORG Dire Straits
+ORG Diyarbakirspor
+ORG Djurgarden
+ORG DKC
+ORG DKJO
+ORG DLC
+ORG DM
+ORG DNB
+ORG DNC De Nederlanden Compagnie
+ORG DocData
+ORG DOCdata
+ORG Dockside
+ORG Doema
+ORG Dolmen
+ORG Domo
+ORG Domo / Farm Frites
+ORG Domo-Farm Frites
+ORG Donitas
+ORG Donna
+ORG Dood Paard
+ORG Doors
+ORG Dordtsche Petroleum
+ORG Doris
+ORG DOS'46
+ORG DOS-WK
+ORG DOV
+ORG DOV / Klaver Lelie
+ORG DOVO
+ORG Dow
+ORG Dow Chemicals
+ORG DPA
+ORG DPA Financial People
+ORG DPA Holding
+ORG Drachtster Boys
+ORG Draka
+ORG Draka Holding
+ORG DSB
+ORG DSM
+ORG Dte
+ORG DTE
+ORG Duinzigt Den Haag
+ORG Duitse Nationale Dienst voor Toerisme
+ORG Duivels
+ORG Dumeco
+ORG Dunaferr Dunaujvaros
+ORG Dundee FC
+ORG Dundee United
+ORG Dunfermline
+ORG Dutchbat
+ORG Dutchbat III
+ORG Dutchtbat
+ORG DVS'33
+ORG DWK
+ORG Dynamo
+ORG Dynamo Kiev
+ORG DYP
+ORG Dyson
+ORG EADS
+ORG Eagles
+ORG Eastborn Volco
+ORG Eastman Kodak
+ORG Easyjet
+ORG EBBC
+ORG EBBC den Bosch
+ORG EBBC Den Bosch
+ORG EBU
+ORG EC
+ORG ECB
+ORG ECD
+ORG EchoStar
+ORG Ecolo
+ORG Economie
+ORG Economie en Arbeid
+ORG Economische Controledienst
+ORG Economische Zaken
+ORG Economische Zaken en Werkgelegenheid
+ORG Econosto
+ORG Ecowas
+ORG ECOWAS
+ORG EDS
+ORG EDX Londen
+ORG Eenwording
+ORG Eerste Kamer
+ORG Efecot
+ORG Effectenbeurs
+ORG Egis Port
+ORG Eidai Madeiras do Brasil S.A.
+ORG Eiffeltowers
+ORG EiffelTowers
+ORG Eindhovens Dagblad
+ORG El Al
+ORG Elazigspor
+ORG Electrabel
+ORG Electric Bebop Band
+ORG Electro 80
+ORG Electrolux
+ORG Elinkwijk
+ORG El Pais
+ORG Elsa
+ORG Elsevier
+ORG Emancipatie en Familiezaken
+ORG Emba
+ORG Emis
+ORG Emmen
+ORG Empoli
+ORG EM.TV
+ORG Endemol
+ORG Eneco
+ORG Energie Cottbus
+ORG Eni
+ORG Enron
+ORG Enviro
+ORG Enviro-Chem Systems
+ORG Environnement
+ORG EO
+ORG E & O
+ORG E&O
+ORG EOC
+ORG EOD
+ORG E.on
+ORG E. on
+ORG EPA
+ORG EPLF
+ORG EPZ
+ORG Erasmushogeschool Brussel
+ORG Erasmus Universiteit
+ORG Eredivisie NV
+ORG Ericsson
+ORG Eriks
+ORG Eritrean People's Liberation Front
+ORG Ernst & Young
+ORG Esa
+ORG ESA
+ORG ESB
+ORG e-Services
+ORG ESF
+ORG Esko Graphics
+ORG Espanyol
+ORG Esquela Libre de Ingeniera
+ORG Essent
+ORG Essent Milieu
+ORG Essent Sneek
+ORG Esso
+ORG ETA
+ORG Etos
+ORG EU
+ORG Eurocontrol
+ORG Eurocross International
+ORG EuroCross International
+ORG Eurodiesel
+ORG Euro Disney
+ORG Euronext
+ORG EuroNext
+ORG Euronext Brussel
+ORG Europarlement
+ORG European Broadcasting Union
+ORG European Laboratory for Structuring Engineering
+ORG European Scientific Working Group on Influenza
+ORG European Voice
+ORG Europees Hof
+ORG Europees Hof voor de Rechten van de Mens
+ORG Europees Parlement
+ORG Europees Sociaal Forum
+ORG Europese Centrale Bank
+ORG Europese Commissie
+ORG Europese Conventie
+ORG Europese Gemeenschap
+ORG Europese Hof
+ORG Europese Hof van Justitie
+ORG Europese Hof voor de Mensenrechten
+ORG Europese Parlement
+ORG Europese Raad
+ORG Europese Ruimtevaartorganisatie
+ORG Europese Unie
+ORG Europese Voedselautoriteit
+ORG Europese Zaken
+ORG Europol
+ORG Eurostar
+ORG Eurythmics
+ORG Euskaltel
+ORG EVC
+ORG EVC International
+ORG Everton
+ORG EVRM
+ORG Exact
+ORG Exact Holding
+ORG Excelsior
+ORG Excelsior'20
+ORG Exc. Moeskroen
+ORG Exendis
+ORG Explosieven Opruimingscommando
+ORG Explosieven Opruimings Commando
+ORG Explosieven Opruimingsdienst
+ORG Exportorgaan
+ORG Export Vlaanderen
+ORG Extremis
+ORG EZ
+ORG Ezana Mining Development
+ORG Fabiolaziekenhuis
+ORG Faithless
+ORG Famagusta
+ORG FAO
+ORG FARC
+ORG Farm Friters
+ORG Farm Frites
+ORG Fassa Bartolo
+ORG Fatah
+ORG Fatah-beweging
+ORG FBI
+ORG FC Antwerp
+ORG FC Barcelona
+ORG FC Basel
+ORG FC Den Bosch
+ORG FC Dordrecht
+ORG FC Eindhoven
+ORG FC Fulham
+ORG FC Groningen
+ORG FC Hilversum
+ORG FC Kaiserslautern
+ORG FC Kopenhagen
+ORG FC Lisse
+ORG FC Lorient
+ORG FC Midtjylland
+ORG FC Nantes
+ORG FC Nürnberg
+ORG FC Omniworld
+ORG FC Onmiworld
+ORG FC Porto
+ORG FC Sevilla
+ORG FC Twente
+ORG FC Utrecht
+ORG FC Volendam
+ORG FC Zimbru
+ORG FC Zwolle
+ORG FD
+ORG FDD
+ORG FDF
+ORG FDP
+ORG FEB
+ORG Fed
+ORG FED
+ORG Federale Verkiezingsinstituut
+ORG Federal Reserve
+ORG Federatie Antroposofische Gezondheidszorg
+ORG Federatie van Marokkaanse Verenigingen
+ORG Feijenoord
+ORG Fenerbahce
+ORG Fepescu
+ORG Ferencvaros
+ORG Ferrari
+ORG Festina
+ORG F.E.T.
+ORG Feyenoord
+ORG FGTB
+ORG FIA
+ORG Fiat
+ORG Fiat Auto
+ORG FIDE
+ORG Fifa
+ORG FIFA
+ORG Filharmonisch Orkest
+ORG Fin
+ORG Financial Times
+ORG Financial Times Deutschland
+ORG Financieel Economische Tijd
+ORG Financieele Dagblad
+ORG Financien
+ORG Financiën
+ORG FIOD
+ORG Fiqas / Aalsmeer
+ORG FIS
+ORG Fiscale Inlichtingen- en Opsporingsdienst
+ORG FKM
+ORG FK Sarajevo
+ORG Flamengo
+ORG Flanders Language Valley
+ORG Fleurop Interflora
+ORG Flevo Boys
+ORG Floralux
+ORG Florie / Vrevok
+ORG FLV
+ORG FMO
+ORG FN
+ORG FN Herstal
+ORG FNV
+ORG FNV Bondgenoten
+ORG FNV Ledenservice
+ORG Fokker
+ORG FOMC
+ORG Fonds voor Beeldende Kunsten , Vormgeving en Bouwkunst
+ORG Ford
+ORG Ford Genk
+ORG Formido / Heerenveen
+ORG Formule 1-commissie
+ORG Fornix
+ORG Fornix Biosciences
+ORG Fortis
+ORG Fortis AG
+ORG Fortis Bank
+ORG Fortis België
+ORG Fortis Nederland
+ORG Fortuna
+ORG Fortuna Sittard
+ORG Forum voor Vredesactie
+ORG Foundation
+ORG Fox Kids Europe
+ORG FPÖ
+ORG FR2
+ORG FR 2
+ORG France 2
+ORG France Soir
+ORG France Telecom
+ORG France Télécom
+ORG France Tilicom
+ORG Frans Maas
+ORG Freedom Forum
+ORG Freenet
+ORG Free Record Shop
+ORG Friesch Dagblad
+ORG Front voor de Souvereiniteit van de Molukken
+ORG Frugo
+ORG FSB
+ORG FSV Kroppach
+ORG FT
+ORG Fugro
+ORG Fulham
+ORG Fürst
+ORG FVT / De Keij
+ORG G14
+ORG G7
+ORG G. A. Eagles
+ORG G.A. Eagles
+ORG GA Eagles
+ORG Gaia
+ORG Galatasaray
+ORG GAM
+ORG Gamesa
+ORG Gamma
+ORG Gasunie
+ORG Gazet van Antwerpen
+ORG Gaziantepspor
+ORG GBL
+ORG G. Bordeaux
+ORG GE
+ORG Gedeputeerde Staten
+ORG Gedeputeerde Staten van Gelderland
+ORG Geldnet
+ORG Gelijke Kansen
+ORG Gemeenschaps Partij
+ORG Gemeentebelangen
+ORG Gemeentekrediet
+ORG Gemeentelijke Fusieschool
+ORG Gemeentelijke Holding
+ORG Gemplus
+ORG Genclerbirligi
+ORG Generale
+ORG General Electric
+ORG Generale Maatschappij
+ORG Generali
+ORG General Motors
+ORG Genesis
+ORG Genk
+ORG Genotschap
+ORG Genotschap der Bierproevers
+ORG Germinal
+ORG Germinal Beerschot
+ORG Germinal Ekeren
+ORG Gerolsteiner
+ORG Gestapo
+ORG Getronics
+ORG Getronics Nederland
+ORG Geveke
+ORG Gewapende Islamitische Groep
+ORG GG & GD
+ORG Giants
+ORG GIB
+ORG Gil Vicente
+ORG GIMV
+ORG Gimvindus
+ORG GL
+ORG Glasgow Rangers
+ORG Glasg. Rangers
+ORG Glaverbel
+ORG GlaxoSmithKline
+ORG Global Alliance on Commodities and Coffee
+ORG Global Asset Capital
+ORG Global Relief Foundation
+ORG GM
+ORG Go Ahead Eagles
+ORG GOG Gudme
+ORG Go Jazz
+ORG Golden Earring
+ORG Goldman
+ORG Goldman Sachs
+ORG Goldman Sachs-bank
+ORG Golkar
+ORG Gorki
+ORG Gorky
+ORG Gouda Vuurvast
+ORG Göztepe
+ORG GPV
+ORG Graafschap
+ORG Grafisch Lyceum Utrecht
+ORG GRANDO GZC / DONK
+ORG Grasshoppers
+ORG Grazer AK
+ORG Great Council of Chiefs
+ORG Greenpeace
+ORG Groenen
+ORG Groene Ster
+ORG Groen Geel
+ORG Groeninghe-Ten Bos
+ORG Groenlinks
+ORG GroenLinks
+ORG Groep De Jong
+ORG Groep-De Jong
+ORG Groep Geleide Wapens
+ORG Grolsch
+ORG Grondstoffeninspectie
+ORG Grontmij
+ORG Grote Prijs van Wallonië
+ORG Grünen
+ORG Grusonia
+ORG GS
+ORG GTI-Reiscompas
+ORG Guardia Civil
+ORG Gucci
+ORG Guimaraes
+ORG Guimardstraat
+ORG Guingamp
+ORG Gulf
+ORG Guns 'n Roses
+ORG Guns n' Roses
+ORG Guns ' N Roses
+ORG Gutenbic
+ORG GUTENBIC
+ORG GvA
+ORG GVVV
+ORG GWK
+ORG Gyproc
+ORG Gyproc Benelux
+ORG GZP
+ORG Haagsche
+ORG Haagsche RC
+ORG Haaretz
+ORG Ha'aretz
+ORG Haarlem
+ORG Hagemeyer
+ORG Hajduk Split
+ORG HAK
+ORG HAL Trust
+ORG Hamas
+ORG Hamburger SV
+ORG Handel
+ORG Hannaford
+ORG Hannover 96
+ORG Hansa Rostock
+ORG Hapoel
+ORG Hapoel TA
+ORG Hapoel Tel Aviv
+ORG Harkatul Mojahedin al Alami
+ORG Harkemase Boys
+ORG Harley Davidson
+ORG Harper's Bazaar
+ORG Harvard Medical School
+ORG Haslemere
+ORG Haven Brussel
+ORG Haven van Brussel
+ORG Havi-TV
+ORG HBG
+ORG HBO-raad
+ORG HBvL
+ORG HCAW
+ORG HCC
+ORG HCKZ
+ORG HdP
+ORG Hearts
+ORG Heerenveen
+ORG Heijmans
+ORG Heineken
+ORG Heineken Holding
+ORG Hellas
+ORG Hell's Angels
+ORG Helmond Sp.
+ORG Helmond Sport
+ORG Helvoet
+ORG Hema
+ORG Hendrix Meat Group
+ORG Hengelhoef
+ORG Henk ten Hoor / DTK
+ORG Heracles
+ORG Heracles Alm
+ORG Heracles Almelo
+ORG Herald Tribune
+ORG Hercules
+ORG Hercules Amsterdam
+ORG Hercules Dordrecht
+ORG Hermes DVS
+ORG Hertha
+ORG Hertha BSC
+ORG HES Beheer
+ORG Het Belang van Limburg
+ORG Het Laatste Nieuws
+ORG het Muziek Lod
+ORG Het Net
+ORG Het Nieuwsblad
+ORG Het Parool
+ORG HET PAROOL
+ORG Het Spectrum
+ORG Het Volk
+ORG Hexcel Welkenraedt
+ORG Hezbollah
+ORG HGC
+ORG HHW Cuba
+ORG Hibernian
+ORG Hill & Knowlton
+ORG Hirondelle
+ORG Hitlerjugend
+ORG Hit Nova Gorcia
+ORG HITT
+ORG HK Vojvodina
+ORG HLN
+ORG H&M
+ORG HMG
+ORG Hochheimer Herrnberg
+ORG Hoek
+ORG Hof
+ORG Hof van Cassatie
+ORG Hof van Straatsburg
+ORG Hoge Colleges van Staat
+ORG Hoge Raad
+ORG Hoge Raad voor de Sport
+ORG Hoge Raad voor de Zelfstandigen
+ORG Hoge Raad voor Diamant
+ORG Hoge Raad voor het Verbruik
+ORG Hoger Instituut Sint-Lucas
+ORG Hogeschool
+ORG Hogeschool Antwerpen
+ORG Hogeschool Gent
+ORG Hogeschool voor de Kunsten
+ORG Hok
+ORG Hok / Transfer Solutions
+ORG Holland Casino
+ORG Holland Colours
+ORG Hollandia
+ORG Holland Media Groep
+ORG Hollandse Dagbladcombinatie
+ORG Honda
+ORG Hoofdproductschap Akkerbouw
+ORG Hoofdstedelijke Raad
+ORG Hoog Comité van Toezicht
+ORG Hoogeveen
+ORG Hooggerechtshof
+ORG Hoogovens
+ORG Hootie & The Blowfish
+ORG Hooverphonic
+ORG Horn
+ORG Hout- en Bouwbond
+ORG Hoverspeed
+ORG HPA
+ORG HRD
+ORG HRW
+ORG HSBC
+ORG HSC'21 / Brein
+ORG HSG
+ORG HSRC
+ORG HSV
+ORG HTM
+ORG Huis der Koningin
+ORG Huis Savoie
+ORG Huis van Afgevaardigden
+ORG Huisvesting
+ORG Human Fertility Research Group
+ORG Human Rights Watch
+ORG Humo
+ORG Hunter Douglas
+ORG Hurley
+ORG Huyzentruyt
+ORG HvA
+ORG HVC
+ORG HWS
+ORG Hynix
+ORG HZDS
+ORG HZ Zian
+ORG IAAF
+ORG IAEA
+ORG IAF
+ORG IAP
+ORG Ibama
+ORG Iberia
+ORG IBM
+ORG Ibycus
+ORG ICC
+ORG IC De Dieze
+ORG ICES
+ORG ICT Automatisering
+ORG Iers Republikeins Leger
+ORG IFB
+ORG IFE
+ORG IFFHS
+ORG IFPI
+ORG IHC-CAL
+ORG IHC Caland
+ORG IHC-Caland
+ORG IJsselmeervogels
+ORG IJzerbedevaartcomitié
+ORG Ikea
+ORG IKEA
+ORG IKON
+ORG IKOR
+ORG IKV
+ORG ILK
+ORG Illchroma
+ORG Imca
+ORG IMF
+ORG Imperial
+ORG Imperial Invest
+ORG Imtech
+ORG INA
+ORG Inclusie Vlaanderen
+ORG IND
+ORG Indaver
+ORG Independiente
+ORG Indiana Pacers
+ORG India Today
+ORG Infostrada
+ORG ING
+ORG ING Bank
+ORG ING Groep
+ORG Initial Security
+ORG Innoconcepts
+ORG Inspectie Gezondheidszorg
+ORG Inspectie Jeugdhulpverlening
+ORG Inspectie voor de Gezondheidszorg
+ORG Institute of Leaderschip
+ORG Institute of Leadership
+ORG Institute of Social Studies
+ORG Instituut voor het Archeologische Patrimonium
+ORG Instituut voor Publiek en Politiek
+ORG Instituut voor Sociaal en Politiek Opinieonderzoek
+ORG Intel
+ORG Inter
+ORG Interbrew
+ORG Inter-Environnement
+ORG Interfax
+ORG Inter Ferry Boats
+ORG Inter Milaan
+ORG Inter Milan
+ORG Internationaal Atoomagentschap
+ORG Internationaal Atoom Agentschap
+ORG Internationaal Atoomenergie Agentschap
+ORG Internationaal Bureau voor Atoomenergie
+ORG Internationaal Gerechtshof
+ORG Internationaal Muntfonds
+ORG Internationaal Olympisch Comité
+ORG Internationaal Strafhof
+ORG International Boundaries Research
+ORG Internationale Atoomenenergie Agentschap
+ORG Internationale Automobielfederatie
+ORG Internationale Federatie voor Voetbalhistorie en Statistiek
+ORG Internationale Strafhof
+ORG Internationale Wielerunie
+ORG International Monetair Fonds
+ORG International Paper
+ORG International Security Assistance Force
+ORG International Steel
+ORG Internazionale
+ORG Interpay
+ORG Interstedelijk Studenten Overleg
+ORG InterTrust Technologies Corporation
+ORG Intervest
+ORG Interview
+ORG Interview NSS
+ORG Invensys
+ORG Invensys Software and Systems
+ORG Inverness
+ORG Investor Relations
+ORG IOC
+ORG IP Marketing
+ORG IPO
+ORG IPS
+ORG Ipswich
+ORG Ipswich Town
+ORG Ira
+ORG IRA
+ORG Iraaks Nationaal Congres
+ORG Iraklis
+ORG IRS
+ORG Isaf
+ORG ISAF
+ORG Isafvredesmacht
+ORG Islamitische Alliantie
+ORG Islamitische Jihad
+ORG Islamitisch Reddingsfront
+ORG ISO Dance Theater
+ORG Isotis
+ORG Ispat International
+ORG ISPO
+ORG Istanbulspor
+ORG @ iT
+ORG Italgas
+ORG Itar
+ORG ITC
+ORG ITF
+ORG IUCN
+ORG Ivoriaanse Volksbeweging
+ORG IVS
+ORG IWin
+ORG Jabil
+ORG Jabil Circuit
+ORG Jaga
+ORG Jaguar
+ORG Jakarta Post
+ORG Jamaah Islamiyah
+ORG JamBangle
+ORG Jammu en Kashmir Bevrijdingsfront
+ORG JC Decaux
+ORG Jemaah Islamiyah
+ORG Jemaah Islamyah
+ORG Jeugdzorg Dordrecht
+ORG Jihad
+ORG Jinnah
+ORG JKLF
+ORG Joegoslavië-Tribunaal
+ORG Jong ADO Den Haag
+ORG Jong Ajax
+ORG Jong AZ
+ORG Jong Cambuur L.
+ORG Jong Denemarken
+ORG Jong Excelsior
+ORG Jong FC Twente
+ORG Jong FC Utrecht
+ORG Jong FC Volendam
+ORG Jong Feyenoord
+ORG Jong Groningen
+ORG Jong Heerenveen
+ORG Jong Helmond Sport
+ORG Jong MVV
+ORG Jong NAC
+ORG Jong Oranje
+ORG Jong PSV
+ORG Jong RBC
+ORG Jong RKC Waalwijk
+ORG Jong Roda JC
+ORG Jong Sparta
+ORG Jong Vitesse
+ORG Jong VVV
+ORG Jong Willem II
+ORG Jordan
+ORG Journal of Internal Medicine
+ORG Journal of Nutrition
+ORG Joy Division
+ORG JP Morgan
+ORG JP Morgan Chase
+ORG Jubilee Campaign NL
+ORG Justitie
+ORG Juve
+ORG Juventus
+ORG JVC Cuijk
+ORG K3
+ORG Kabinet der Koningin
+ORG Kabinet van de Gouverneur van Aruba
+ORG Kabinet van de Gouverneur van de Nederlandse Antillen
+ORG Kaiserslautern
+ORG Kalzip
+ORG Kamer
+ORG Kamers van Koophandel
+ORG Kamer van Handel en Nijverheid
+ORG Kampong
+ORG Kanaal 2
+ORG KANAAL 2
+ORG Kanaal Z
+ORG Kane
+ORG Kansspelcommissie
+ORG Kanu
+ORG KANU
+ORG Kapitol
+ORG Kardinaal Van Roey Instituut
+ORG Kas Bank
+ORG KASKI
+ORG Katholieke Universiteit
+ORG Katoen Natie
+ORG Kazaa
+ORG Kazzinc Torpedo
+ORG KBC
+ORG KBC-groep
+ORG KBC Securities
+ORG KB Lux
+ORG KBS Holland
+ORG KBV
+ORG KCO
+ORG Keipenheuer Witsch
+ORG Kelly Family
+ORG Kelme
+ORG Kendrion
+ORG Kendrion Finance
+ORG Keppel
+ORG Kerk in Nood
+ORG Kerk in Nood / Oostpriesterhulp
+ORG Kernfysische Dienst
+ORG Keuringsdienst van Waren
+ORG KHN
+ORG KHNL Zagreb
+ORG Kiesraad
+ORG Kijk en LuisterOnderzoek
+ORG Kilmarnock
+ORG Kinepolis
+ORG KirchMedia
+ORG K. K. Brewery
+ORG KK Zadar
+ORG KL
+ORG Klasse voor Ouders
+ORG Klaver Lelie
+ORG KLM
+ORG KLO
+ORG KLPD
+ORG Kluwer
+ORG Kmar
+ORG KMI
+ORG Knack
+ORG Knesset
+ORG KNHB
+ORG Knicks
+ORG KNLTB
+ORG KNMG
+ORG KNMI
+ORG KNMP
+ORG KNRB
+ORG KNSB
+ORG KNV
+ORG KNVB
+ORG KNWU
+ORG Kocaelispor
+ORG Kocealispor
+ORG Kodakteam
+ORG Koenders / V & L
+ORG Koloniën
+ORG Kommunalnik Grodno
+ORG Konica
+ORG Koning Boudewijnstichting
+ORG Koninklijk Concertgebouw Orkest
+ORG Koninklijke Belgische Voetbalbond
+ORG Koninklijke Familie
+ORG Koninklijke Huis
+ORG Koninklijke Landmacht
+ORG Koninklijke Luchtmacht
+ORG Koninklijke Maatschappij tot Bevordering der Geneeskunst
+ORG Koninklijke Marechaussee
+ORG Koninklijke Marine
+ORG Koninklijke Musea voor Kunst en Geschiedenis
+ORG Koninklijke Nederlandsche Petroleum Maatschappij
+ORG Koninklijke Olie
+ORG Koninklijke Wegenbouw Stevin
+ORG Koninklijk Horeca Nederland
+ORG Koninklijk Huis
+ORG Kon. Olie
+ORG Kon. UD
+ORG Koop Tjuchem
+ORG Koop-Tjuchem
+ORG Koramic
+ORG Korps Landelijke Politiediensten
+ORG K-otic
+ORG Kozakken Boys
+ORG KP
+ORG KPMG
+ORG KPN
+ORG KPN Belgium
+ORG KPNQwest
+ORG KPN Qwest
+ORG Kralovo Pole Brno
+ORG Kras Boys
+ORG KRAS Volendam
+ORG KRAS / Volendam
+ORG KRO
+ORG Kroon
+ORG Kruidvat
+ORG K's Choice
+ORG KTS , Tarnobrzeg
+ORG Kühne + Heitz
+ORG Ku Klux Klan
+ORG KUL
+ORG KU Leuven
+ORG Kuwait Petroleum
+ORG KV
+ORG KVM
+ORG KV Mechelen
+ORG Kyoto Purple Sanga
+ORG Labour
+ORG Labourpartij
+ORG La Coruña
+ORG Ladbrokes
+ORG La Deux
+ORG Lafarge
+ORG La Française des Jeux
+ORG La Gazette
+ORG Lagerhuis
+ORG Lakers
+ORG LA Lakers
+ORG La Libre Belgique
+ORG La Louviere
+ORG La Louvière
+ORG Lampre
+ORG Lampre-Daikin
+ORG Lampres
+ORG Land Acquisition Committee
+ORG Landbouw
+ORG Landbouw en Visserij
+ORG Landbouw , Natuurbeheer en Visserij
+ORG Landelijke Vereniging Groepswonen voor Ouderen
+ORG Land- en Tuinbouworganisatie
+ORG Landis
+ORG Landis Group
+ORG Landmacht
+ORG Landstede Zwolle
+ORG Langweid
+ORG Laoag Air
+ORG La Repubblica
+ORG Lars Muller Publishers
+ORG Laskar Jihad
+ORG La Une
+ORG Laurus
+ORG Lava
+ORG Lazard Frères
+ORG Lazio Roma
+ORG LBC
+ORG LCI
+ORG LCI Computer
+ORG LDP
+ORG Led Zeppelin
+ORG Leeds
+ORG Leeds United
+ORG Leefbaar Ned
+ORG Leefbaar Nederland
+ORG Leefbaar Rotterdam
+ORG Leefbaar Utrecht
+ORG Leefmilieu
+ORG Leemhuis & Van Loon
+ORG Leftfield
+ORG Leger des Heils
+ORG Legia
+ORG Legia Warschau
+ORG Legio Lease
+ORG Legrand
+ORG Leicester City
+ORG Leidse Universiteit
+ORG Leixoes
+ORG Le Monde
+ORG L'Equipe
+ORG Lernout & Hauspie
+ORG Les Bleus
+ORG Le Soir
+ORG Les XX
+ORG Letteren en Wijsbegeerte
+ORG Levski Sofia
+ORG LHSP
+ORG Liberaal Appél
+ORG Libération
+ORG Libertel
+ORG Lierse
+ORG Lierse SK
+ORG LIFFE
+ORG Liga
+ORG Liga voor de Mensenrechten
+ORG Ligitan
+ORG Lijst Fortuyn
+ORG Lijst Nieuwe Politiek
+ORG Lijst Nieuw Nederland
+ORG Lijst Pim Fortuyn
+ORG LijstRatelband.nl
+ORG Likoed
+ORG Likoedpartij
+ORG Likoed-partij
+ORG Likud
+ORG Likud-partij
+ORG Limburgs Dagblad
+ORG Linda McCartney
+ORG Liquigas
+ORG Lire
+ORG Live
+ORG Livingston
+ORG LN
+ORG LNP
+ORG LNV
+ORG Logica
+ORG Lokeren
+ORG Lokomotiv Charkiv
+ORG Lokomotiv Moskou
+ORG Lommel
+ORG Longa
+ORG Longa'59
+ORG Lord's Resistance Army
+ORG Los Angeles
+ORG Los Angeles Galaxy
+ORG Los Angeles Times
+ORG LOT
+ORG Lotto
+ORG Lovin ' Spoonful
+ORG Loya Jirga
+ORG LPF
+ORG LR
+ORG LRA
+ORG LRC DIOK
+ORG LSD
+ORG LSE
+ORG LSG
+ORG LSVb
+ORG LTO Nederland
+ORG LTO-Nederland
+ORG Lucent
+ORG Luchtmacht
+ORG Ludion
+ORG Ludwig-Maximalians-universiteit
+ORG Lufthansa
+ORG Luis Barragán Foundation
+ORG Lukoil
+ORG Lumio Het Ravijn
+ORG L'Union des Bruxellois
+ORG Luxair
+ORG LUXGSMLUXGSM
+ORG LVMH-groep
+ORG LZ 1886
+ORG Maccabi Haifa
+ORG MacDonalds
+ORG Macintosh
+ORG Madredeus
+ORG Magazine nr.3
+ORG Magazine nr. 3
+ORG Magnus
+ORG Magnus Holding
+ORG Maï Maï
+ORG Málaga
+ORG Malatyaspor
+ORG Management Share
+ORG Manchester City
+ORG Manchester United
+ORG Manchester Utd
+ORG Mannschaft
+ORG Mapei
+ORG Mapei-Quick-Step
+ORG Marechaussee
+ORG Marine
+ORG Mariners
+ORG Maritimo Funchal
+ORG Marnix Ring
+ORG MAS
+ORG MAS dienstverleners
+ORG Massachusetts Institute of Technology
+ORG Massive Attack
+ORG Mattel
+ORG Matthys Wijnimport
+ORG Maverix Capital
+ORG Maxi Toys
+ORG Max / Nijmegen
+ORG McDonalds
+ORG McDonald's
+ORG Mc Gregor
+ORG MC Gregor
+ORG McLaren
+ORG McLaren-Mercedes
+ORG ME
+ORG Meat Loaf
+ORG Med2Rad
+ORG Mededingingsautoriteit
+ORG Mediobanc
+ORG Medivision
+ORG Melchemie
+ORG Memory Card
+ORG Mendoza
+ORG Mercatone Uno
+ORG Mercator
+ORG Mercator & Noordstar Verzekeringen
+ORG Mercedes
+ORG Mercedes-Benz
+ORG Meretz
+ORG Metallica
+ORG Meteo Consult
+ORG Metis Varese
+ORG Metro
+ORG Metterwoon
+ORG MGM
+ORG MIBA
+ORG Michelin
+ORG Microsoft
+ORG MID
+ORG Middlesbrough
+ORG Midnight Oil
+ORG Midtjyland
+ORG Milan
+ORG MILF
+ORG Milieu
+ORG Milieudefensie
+ORG Milieu-Offensief
+ORG Mille Collines
+ORG Milwaukee Bucks
+ORG Minardi
+ORG Ministerie van de Vlaamse Gemeenschap
+ORG Ministerraad
+ORG Minnesota Twins
+ORG Minolta
+ORG MIT
+ORG Mitsubishi Heavy Industries
+ORG MIVB
+ORG MKB-Nederland
+ORG MLB
+ORG MLC
+ORG Mlidost Zagreb
+ORG MLS
+ORG Mobiele Eenheid
+ORG Mobilcom
+ORG Mobilkom Austria
+ORG Mobistar
+ORG Mobistar Corporate Solutions
+ORG Modalfa
+ORG Moeara Enim
+ORG Moederland Partij
+ORG Moeskroen
+ORG Monetaire Zaken
+ORG Monitor Racisme
+ORG Monsanto
+ORG Monster.ca
+ORG Monster.com
+ORG Montpellier
+ORG Moolen
+ORG Moreirense
+ORG Morgan Chase & Co
+ORG Morgan Stanley
+ORG Morgan Stanley Dean Witter
+ORG Morkhoven
+ORG Moslim Liga
+ORG Motherwell
+ORG MotoGP
+ORG Motor
+ORG Motorola
+ORG Motorpsycho
+ORG Mount Everest / Donitas
+ORG Mövenpick
+ORG Movielink
+ORG MP3.com
+ORG MPC-Celeritudo
+ORG MPC-Donar
+ORG MPCI
+ORG MR
+ORG Mr. Cocker HCAW
+ORG M&S
+ORG MTV
+ORG Mugen
+ORG MuHKA
+ORG Munt
+ORG Museum aan de Stroom
+ORG MVV
+ORG NAC
+ORG Nacional
+ORG Nacional Madeira
+ORG Nacional Montevideo
+ORG Naeff
+ORG Nagron
+ORG NAK / Den Helder
+ORG NAM
+ORG Napoleon Bonbons
+ORG Napster.com
+ORG NARC
+ORG Nasa
+ORG Nationaal Instituut voor de Statistiek
+ORG Nationaal Italiaans Verkeersbureau
+ORG National Boekarest
+ORG Nationale Bank
+ORG Nationale Bank van België
+ORG Nationale Raad
+ORG Nationale Regenboogcoalitie
+ORG Nationale Regenboog Coalitie
+ORG Nationale Reserve
+ORG Nationale Unie
+ORG Nationale Veiligheid
+ORG Nationale Verzetsbeweging
+ORG National Institutes of Health
+ORG Nature
+ORG Natuurmonumenten
+ORG Navo
+ORG NAVO
+ORG NBA
+ORG NBB
+ORG NBC
+ORG NBLC
+ORG NCD
+ORG NCMV
+ORG NCRV
+ORG N.E.A.
+ORG NEC
+ORG Ned 1
+ORG NED 1
+ORG Ned 2
+ORG Ned 3
+ORG NED 3
+ORG Nedap
+ORG Nedcon
+ORG Nedcon Groep
+ORG Nederland 1
+ORG Nederland 2
+ORG Nederland 3
+ORG Nederlands-Antilliaanse en Arubaanse Zaken
+ORG Nederlandse Federatie voor de Cinematografie
+ORG Nederlandse Financierings Maatschappij voor Ontwikkelingslanden
+ORG Nederlandse Maatschappij tot Bevordering der Tandheelkunde
+ORG Nederlandse Mededingingsautoriteit
+ORG Nederlandse Omroepstichting
+ORG Nederlandse Spoorwegen
+ORG Nederlandse Vereniging van Banken
+ORG Nederlandse Vereniging van Makelaars
+ORG Nederlandse Vereniging van Strafadvocaten
+ORG Nederlandse Vereniging voor Vrijwillige Euthanasie
+ORG Nederlands Filmfonds
+ORG Nederlands Forensisch Instituut
+ORG Nederlands Instituut voor Brandweer en Rampenbestrijding
+ORG Nederlands Instituut voor Budgetvoorlichting
+ORG Nederlands Instituut voor Oorlogsdocumentatie
+ORG Nederlands Juristenblad
+ORG Nedlloyd
+ORG NedLloyd
+ORG Nedloyd
+ORG Nedschroef
+ORG Nestle
+ORG Net 5
+ORG Netscape Netcenter
+ORG Neutelings-Riedijk
+ORG Neways
+ORG Neways Electronics
+ORG Newcastle United
+ORG Newconomy
+ORG New England Patriots
+ORG New England Revolution
+ORG New Jersey Nets
+ORG New Skies Satellite
+ORG Newsweek
+ORG New York School of Visual Arts
+ORG New York Times
+ORG New York Yankees
+ORG NFI
+ORG NFL
+ORG NH Hoteles
+ORG Nibra
+ORG NIBUD
+ORG Nicc
+ORG Nieuw Buinen
+ORG Nieuwe Communistische Partij
+ORG Nieuwe Revu
+ORG Nieuwe steen
+ORG Nieuw Nederland
+ORG Nieuw-Vlaamse Alliantie
+ORG Nieuw West
+ORG NIH
+ORG Nike
+ORG Nintendo
+ORG NIOD
+ORG Nipo
+ORG NIPO
+ORG Nirvana
+ORG NIS
+ORG Nissan
+ORG NK Varteks
+ORG NmA
+ORG NMa
+ORG NMBS
+ORG NMKN
+ORG NMT
+ORG Nobelcomite
+ORG NOC
+ORG NOC*NSF
+ORG Nokia
+ORG Noordhollands Dagblad
+ORG Noordstar
+ORG Noordzee FM
+ORG Norbertijnen
+ORG Normaal
+ORG NOS
+ORG NOS-uitzending
+ORG Nour
+ORG Novastar
+ORG Novib
+ORG Novib / Oxfam International
+ORG NPCF
+ORG NPM
+ORG NPS
+ORG NRC
+ORG NRC Handelsblad
+ORG NRC HANDELSBLAD
+ORG NRM
+ORG NS
+ORG NSF
+ORG NS Reizigers
+ORG NSS
+ORG NTB
+ORG NTL
+ORG NTT
+ORG NTV
+ORG Nu'91
+ORG Numico
+ORG Nu.nl
+ORG Nu. nl
+ORG NUON
+ORG Nürnberg
+ORG Nutreco
+ORG N-VA
+ORG NV-A
+ORG NVB
+ORG NVLT
+ORG NVM
+ORG NVSH
+ORG NVVE
+ORG Nyloplast
+ORG NY Times
+ORG O2
+ORG Oakland Athletics
+ORG OAS
+ORG Oce
+ORG Océ
+ORG ociale Verzekeringsbank
+ORG OCMW
+ORG Octurn
+ORG OCW
+ORG Oegandees Volkscongres
+ORG Oeso
+ORG OESO
+ORG Offermans Joosten
+ORG Offspring
+ORG Ogyen Kunzang Chöling (OKC)-beweging
+ORG OHM
+ORG OHRA
+ORG OJC Rosmalen
+ORG OKC
+ORG OKC-beweging
+ORG Olimpia Asuncion
+ORG Olivetti
+ORG Olympia
+ORG Olympiakos
+ORG Olympiakos Piraeus
+ORG Olympique Lyon
+ORG OM
+ORG Omega Pharma
+ORG Omniworld
+ORG Omroep Brabant
+ORG Omroep Flevoland
+ORG OM Zuid-Holland Zuid
+ORG Once
+ORG ONCE
+ORG Onderwijs
+ORG Onderwijs Blues
+ORG Onderwijs , Cultuur en Wetenschappen
+ORG Onderwijs Cultuur en Wetenschappen
+ORG Onderzoeksraad voor veiligheid
+ORG Ontex
+ORG Ontwikkelingshulp
+ORG Ontwikkelingssamenwerking
+ORG Ontwikkelingszaken
+ORG Onze Taal
+ORG O&O
+ORG O O Den Haag
+ORG Oostpriesterhulp
+ORG Opec
+ORG OPEC
+ORG Opel
+ORG Openbaar Ministerie
+ORG Open Line-V&L
+ORG Openluchtmuseum Middelheim
+ORG OpenTV
+ORG OPG
+ORG OPG Groep
+ORG Opus Dei
+ORG Oracle
+ORG Oranje
+ORG Oranje Zwart
+ORG Orao
+ORG Ordina
+ORG Organisatie van Afrikaanse Eenheid
+ORG Organisatie van Amerikaanse Staten
+ORG Organisatie voor Afrikaanse Eenheid
+ORG Organisatie voor Economische Samenwerking en Ontwikkeling
+ORG Organisatie voor Veiligheid en Samenwerking in Europa
+ORG Organon
+ORG Orion
+ORG Orkelljugna
+ORG Orlando Magic
+ORG Ortec Nesselande
+ORG Ortec / Nesselande
+ORG OS
+ORG Osasuna
+ORG OSD
+ORG OSF
+ORG Oslo Philharmonisch Orkest
+ORG Ostend Airport
+ORG Ouders Online
+ORG Ovam
+ORG OVP
+ORG ÖVP
+ORG OVSE
+ORG Ovv
+ORG Oxfam
+ORG OZ&PC / Piranha
+ORG Paars 1
+ORG Paars 2
+ORG Paars I
+ORG Paars II
+ORG Pacers
+ORG Pacos Ferreira
+ORG Palestijnse Autoriteit
+ORG Panathinaikos
+ORG Pancratius
+ORG Pandora
+ORG Panellionios Athene
+ORG Panini
+ORG Panorama
+ORG PAOK Saloniki
+ORG PAP
+ORG Paribas
+ORG Paris FC
+ORG Paris SG
+ORG Paris St. Germain
+ORG Parlementaire enquetecommissie Srebrenica
+ORG Parlementaire Enquetecommissie Srebrenica
+ORG Parool
+ORG Partick Thistle
+ORG Partij van de Arbeid
+ORG Partij van de Toekomst
+ORG Partij voor de Dieren
+ORG Partij voor Gerechtigheid en Ontwikkeling
+ORG Parys Media
+ORG Passe Partout
+ORG Pauwels Trafo
+ORG PBC
+ORG PCM
+ORG PCMS
+ORG PCS Boedapest
+ORG PDC
+ORG PDS
+ORG Pearl Jam
+ORG Pechiney
+ORG Pegasus
+ORG Pehlivan Amsterdam
+ORG Pensioenen
+ORG Pensioen- en Verzekeringskamer
+ORG Pentagon
+ORG Penthouse
+ORG Peppi en Kokki
+ORG Perik Jumpers
+ORG Persgroep
+ORG Perugia
+ORG PETA
+ORG Petrofina
+ORG Petroplus
+ORG Petroplus International
+ORG Peugeot
+ORG Pfizer
+ORG PGA
+ORG Pharming
+ORG Pharming Group
+ORG Philip Morris
+ORG Philips
+ORG Philips Contract Manufacturing Services
+ORG Philips Hasselt
+ORG Phonak
+ORG Piacenza
+ORG Pink Floyd
+ORG PinkRoccade
+ORG Pink Valle
+ORG Pinoke
+ORG Pirelli
+ORG Pittsburg Symphony Orchestra
+ORG Pixies
+ORG PKC
+ORG PKC / Cafe Bar
+ORG PKK
+ORG Planet
+ORG Planet Internet
+ORG Planet Media
+ORG Planet Media Groep
+ORG Plastic Omnium
+ORG Platform tegen de Nieuwe Oorlog
+ORG Playboy
+ORG P-Magazine
+ORG Poëziecentrum
+ORG Polar Bears
+ORG Politieke Vereniging ' Nieuw Nederland '
+ORG Pollux
+ORG Polti
+ORG Polynorm
+ORG Pommery
+ORG Pompadour
+ORG Porceleyne Fles
+ORG Porsche
+ORG Porto
+ORG Portugal Telecom
+ORG Portuguesa
+ORG Post
+ORG Power Wevelgem
+ORG PPP
+ORG Prada
+ORG Presidium
+ORG Preston North End
+ORG Preussag
+ORG Pricma
+ORG Prins Claus Fonds
+ORG Priority Telecom
+ORG Prive
+ORG PRL
+ORG PRL-FDF
+ORG PRL/FDF
+ORG Probuild Lions
+ORG Procol Harum
+ORG Productschap Granen, Zaden en Peulvruchten
+ORG Productschap GZP
+ORG Productschappen Vee , Vlees en eieren
+ORG Productschappen Vee , Vlees en Eieren
+ORG Productschap Tuinbouw
+ORG Professional Darts Corporation
+ORG Prolion
+ORG ProRail
+ORG Providence
+ORG Provinciaal Integratiecentum Antwerpen
+ORG Provinciale Prijs
+ORG Proximus
+ORG PS
+ORG PSC
+ORG PSO
+ORG PSV
+ORG PTI
+ORG Publieke Omroep
+ORG Publieke Zaak
+ORG Publiekstheater
+ORG Puchov
+ORG Pulp en co
+ORG PvdA
+ORG PVDA
+ORG PVE
+ORG PVK
+ORG PVV
+ORG Pype Ramen
+ORG PZ / Dynamo
+ORG Q8
+ORG Qantas
+ORG Quatro Bree
+ORG Queen
+ORG Querido
+ORG Quest International
+ORG Quick
+ORG Quick'20
+ORG Quick Boys
+ORG Quick Hg
+ORG Quick-Step
+ORG Quintus
+ORG QuizPeople
+ORG QuizPeople.com
+ORG Quote
+ORG Raad
+ORG Raad Landelijk Gebied
+ORG Raad van Commissarissen
+ORG Raad van de Europese Unie
+ORG Raad van Hoofdcommissarissen
+ORG Raad van Ministers
+ORG Raad van Moskeeen
+ORG Raad van State
+ORG Raad van Toezicht
+ORG Raad voor de Kinderbescherming
+ORG Raad voor de Mededinging
+ORG Raad voor de Rechtsbijstand
+ORG Raad voor de Rechtspraak
+ORG Raad voor de Transportveiligheid
+ORG Raad voor de Volksgezondheid
+ORG Raad voor de Volksgezondheid en Zorg
+ORG Raad voor het Verbruik
+ORG Raad voor Verkeer en Waterstaat
+ORG RAAK
+ORG RaamTeater
+ORG Rabo
+ORG Rabobank
+ORG Rabotnicki Fersped
+ORG Racing Antwerpen
+ORG Racing Genk
+ORG Radical Faeries
+ORG Radio 1
+ORG RADIO 1
+ORG Radio 2
+ORG Radio 3
+ORG Radio 3FM
+ORG Radio 5
+ORG Radio 538
+ORG Radio Donna
+ORG Radio Echo
+ORG Radiohead
+ORG Radio Israel
+ORG Radio Mango
+ORG Radio Mille Collines
+ORG Radio Noordzee
+ORG Radio Select
+ORG Radio Television libre des Mille Collines
+ORG Radio Twee
+ORG Radio Veronica
+ORG Radio Vlaanderen Internationaal
+ORG Rael
+ORG Raël
+ORG RAF
+ORG Rage Against The Machine
+ORG Raggers
+ORG Raggers Thamen
+ORG Railinfrabeheer
+ORG Railverkeersleiding
+ORG Ramon Ayala y sus bravos del norte
+ORG Randstad
+ORG RandstadRail
+ORG Rangers
+ORG Raoni
+ORG Rapid Boekarast
+ORG Rapid Boekarest
+ORG Ray of Hope
+ORG Rayo Vallecano
+ORG RBC
+ORG RBC Roos'daal
+ORG RBC Roosendaal
+ORG R. Boekarest
+ORG RCA
+ORG RC Bassets
+ORG RC / Bekaro
+ORG RCD
+ORG RC Genk
+ORG RC Hilversum
+ORG RC Lens
+ORG RC 't Gooi
+ORG RDM
+ORG Readymix Belgium
+ORG Real
+ORG Real Betis
+ORG Real Madrid
+ORG Real Mallorca
+ORG Real Sociedad
+ORG Real Union de Irun
+ORG Real Valladolid
+ORG Reclame Code Commissie
+ORG Recording Industry Association of America
+ORG Recreativo Huelva
+ORG RedaTtacK
+ORG Red hot chili peppers
+ORG Red Hot Chili Peppers
+ORG Red Star
+ORG Red Stars
+ORG Red Zebra
+ORG Reed
+ORG Reed Elsevier
+ORG Reesink
+ORG regering-Sharon
+ORG Reggina
+ORG Rekenhof
+ORG Rekenkamer
+ORG Relesa Galvame
+ORG Religieuze Zaken
+ORG R.E.M.
+ORG Remu
+ORG Remy
+ORG Renault
+ORG Rendac
+ORG Reporters
+ORG Republikeinen
+ORG Residentie Orkest
+ORG Resist
+ORG RET
+ORG Reuters
+ORG Revolutionaire Commandoraad
+ORG RIAA
+ORG Ricoh Astronauts
+ORG Rietveld Academie
+ORG Riga 2000
+ORG Rijk
+ORG Rijksdienst voor de keuring van Vee en Vlees
+ORG Rijksinstituut voor Oorlogsdocumentatie
+ORG Rijksinstituut voor Volksgezondheid en Milieu
+ORG Rijksvoorlichtingsdienst
+ORG Rijkswaterstaat
+ORG Rijnsburgse Boys
+ORG Risc
+ORG Risc Technology
+ORG RIVM
+ORG RKC
+ORG RKC Waalwijk
+ORG RKHVV
+ORG RK-kerk
+ORG RNW
+ORG Robbrecht-Daem
+ORG Robeco
+ORG ROC Amsterdam
+ORG ROC Midden-Brabant
+ORG Roda
+ORG Roda JC
+ORG Rodamco Europe
+ORG Rode Brigade
+ORG Rode Duivels
+ORG Rode Khmer
+ORG Rode Kruis
+ORG Rolling Stones
+ORG Ronduit N-VA
+ORG Rood Testhouse
+ORG Rood & Wit
+ORG Rooms-Katholieke Kerk
+ORG Rosenborg
+ORG Rosenborg BK
+ORG Ross County
+ORG Roto Smeets de Boer
+ORG Roto Smeets De Boer
+ORG Roularta
+ORG Rover
+ORG Royal Air Force
+ORG Royal Dutch
+ORG Royal Pepinster
+ORG RPF
+ORG RRC / Sunergy
+ORG RTBF
+ORG RTBF 1
+ORG RTL
+ORG RTL4
+ORG RTL 4
+ORG RTL5
+ORG RTL 5
+ORG RTLM
+ORG RTL-TVI
+ORG RTV Utrecht
+ORG Ruben & Nathan
+ORG Ruijters / Geleen
+ORG Ruimtelijke Ordening
+ORG Run DMC
+ORG Run-DMC
+ORG Rutac
+ORG RVA
+ORG RVD
+ORG RvS
+ORG RVU
+ORG RVZ
+ORG Rwanda-tribunaal
+ORG RWE
+ORG Ryanair
+ORG Saab
+ORG Sabah
+ORG Sabena
+ORG SABENA
+ORG Saeco
+ORG Safety Holland
+ORG Safeway
+ORG Sagem
+ORG Sainsbury
+ORG Sait
+ORG SAIT
+ORG SAIT-Radio Holland
+ORG SAIT-Stento
+ORG Saks Fifth Avenue
+ORG Salamanders
+ORG Samas Groep
+ORG Samas Group
+ORG Samenwerkende Hulporganisaties
+ORG Sampdoria
+ORG Samsumg
+ORG Samsung
+ORG Samsung Chemicals
+ORG Samsunspor
+ORG San Francisco Giants
+ORG Sanoma Magazines
+ORG Santa Clara
+ORG Sao Caetano
+ORG Sara Lee
+ORG Sartid Zmerderevo
+ORG Sarto
+ORG Saudi Arabian Airlines
+ORG SBO
+ORG SBS
+ORG SBS6
+ORG SBS 6
+ORG SBS Broadcasting
+ORG SBS-groep
+ORG Scala
+ORG Scala Business
+ORG Scanfil
+ORG Scarlet
+ORG Scarlet Telecom
+ORG SCC Berlin
+ORG SC Genemuiden
+ORG Schalke
+ORG Schalke 04
+ORG SCHC
+ORG sc Heerenveen
+ORG SC Heerenveen
+ORG Schipper / Martinus
+ORG Schöne Edelmetaal BV
+ORG Schuitema
+ORG Schwäbisches Tageblatt
+ORG Science
+ORG Scoot
+ORG Scotland Yard
+ORG Scylla
+ORG SC Zevenaar
+ORG SDA
+ORG SDC Putten
+ORG SDKU
+ORG SDP
+ORG Seagull
+ORG Seattle SuperSonics
+ORG Secret Police
+ORG Sedan
+ORG S. E. Fireworks
+ORG S.E. Fireworks
+ORG SE Fireworks
+ORG Segersbetter technology
+ORG Seghersbetter technology
+ORG Seghers Better Technology
+ORG Seghers Water
+ORG Senaat
+ORG SER
+ORG Servette
+ORG Service National
+ORG Servische Radicale Partij
+ORG SEW
+ORG SFOR
+ORG SFR
+ORG SGP
+ORG Shady Records
+ORG Sharman Networks
+ORG Shas
+ORG Shell
+ORG Shelter
+ORG Shinui
+ORG Shinui-partij
+ORG SHO
+ORG Shooters
+ORG Sidel
+ORG Sidmar
+ORG Siebe
+ORG Siemens Belux
+ORG Siemens Mobile
+ORG Simac
+ORG Simon & Garfunkel
+ORG Simon Wiesenthal Centrum
+ORG Simple Minds
+ORG Simson Landgraaf
+ORG Sinn Fein
+ORG Sint-Barbaracollege
+ORG Sint-Lukas
+ORG Sint-Lukasinstituut
+ORG Sint Truiden
+ORG Sint-Truiden
+ORG Sipri
+ORG Sire
+ORG Sisters Of Mercy
+ORG Sithe
+ORG Sittardia
+ORG SK Beveren
+ORG Skik
+ORG SK Lierse
+ORG SK Lokeren
+ORG SK Lommel
+ORG Skrien
+ORG Skyshops
+ORG Sky Shops
+ORG Slavia Bratislava
+ORG Slavia Praag
+ORG Slavneft
+ORG Slegte
+ORG Sliedrecht Sport
+ORG Sligro
+ORG Sloan Helicopters Ltd.
+ORG SLUC Basket Nancy
+ORG Smashing Pumpkins
+ORG Smer
+ORG Smit
+ORG Smit Internationale
+ORG SNBA
+ORG SN Brussels
+ORG SN Brussels Airlines
+ORG Snow Brand Milk Products
+ORG SNT
+ORG SNT Group
+ORG Sobelair
+ORG Sochaux
+ORG Sociaal Cultureel Planbureau
+ORG Sociaal Economische Raad
+ORG Sociaal en Cultureel Planbureau
+ORG Social Democratic Party
+ORG Sociale Zaken
+ORG Sociale Zaken en Werkgelegenheid
+ORG Socialistische Partij
+ORG Sociedad
+ORG Société du Tour de France
+ORG Societe Generale
+ORG Socutera
+ORG Sofitex
+ORG Sognal
+ORG Solidair '93
+ORG Soluna Olympia
+ORG Solutia
+ORG Solvay
+ORG Solvus
+ORG Sony
+ORG Sopheon
+ORG Sorbonne
+ORG S. O. S. Papa
+ORG S.O.S.Papa
+ORG Sotheby's
+ORG Soulwax
+ORG Southampton
+ORG So Watt
+ORG SP
+ORG SP.A
+ORG SpaarAdvies
+ORG SpaarSelect
+ORG Spaar Select
+ORG Spaar Select-team
+ORG Sparks
+ORG Sparta
+ORG Spartaan
+ORG Spartak
+ORG Spartak Moskou
+ORG Sparta Praag
+ORG SPD
+ORG SPE
+ORG Special Operations Executive
+ORG Spherion / Robben
+ORG Sphinx
+ORG Spirit
+ORG Spoorwegen
+ORG Sport
+ORG Sporting
+ORG Sporting Braga
+ORG Sporting Portugal
+ORG Sportploeg van het Jaar
+ORG Springer-concern
+ORG Spurs
+ORG Squadra Azzurra
+ORG SS
+ORG Staat
+ORG Staat der Nederlanden
+ORG Staatsblad
+ORG Staatsloterij
+ORG Staatsveiligheid
+ORG Stabaek
+ORG Stade Rennes
+ORG Stadsdeel Centrum
+ORG Stage Holding
+ORG STAN
+ORG Standard
+ORG Standard Luik
+ORG Star Alliance
+ORG Startupfailures
+ORG Startupfailures.com
+ORG State Department
+ORG Staten Generaal
+ORG Status Quo
+ORG Steaua
+ORG Stellenbosch
+ORG Sterilgarda
+ORG Stern
+ORG Stevo
+ORG Stichting Beeldrecht
+ORG Stichting De Kringen
+ORG Stichting Halt
+ORG Stichting Help Vandalisme Afbreken
+ORG Stichting Ideele Reclame
+ORG Stichting Jeugdzorg
+ORG Stichting Leaseverlies
+ORG Stichting Meld Geweld
+ORG Stichting Natuur en Milieu
+ORG Stichting Onderzoek MKZ
+ORG Stichting Praemium Erasmianum
+ORG Stichting Tolerance Unlimited
+ORG Stichting Werkgroep Orpheus
+ORG Stiga
+ORG STK Duga Resa
+ORG St. Louis Cardin
+ORG St. Louis Cardinals
+ORG Stones
+ORG Stop de Oorlog
+ORG Stork
+ORG Storm / Telst .
+ORG Stormvogels
+ORG Stormvogels / Telstar
+ORG Stormvogels-Telstar
+ORG Stormv. / Telstar
+ORG Strafhof
+ORG Strasbourg
+ORG Stretch Top Bree
+ORG St. Truiden
+ORG Studio Brussel
+ORG Studio-Brussel
+ORG Sturm Graz
+ORG Stuttgarter Kickers
+ORG STVV
+ORG Süddeutsche
+ORG Süddeutsche Zeitung
+ORG Sudosa
+ORG Sud Presse
+ORG Sugar Hill Gang
+ORG Suhrkamp
+ORG Sunday Times
+ORG Sunderland
+ORG Superclub
+ORG Supertramp
+ORG Sussex CCC
+ORG Suva
+ORG SVB
+ORG SV Babberich H
+ORG SV Delden
+ORG SV Lvjvska Politechnika
+ORG S / VM
+ORG SV Meerssen
+ORG SVS Kuoni Wien
+ORG sv Zwolle
+ORG SWC
+ORG Swiss
+ORG Swissair
+ORG Swiss Life
+ORG Sydney Herald
+ORG Synodale Katholieken België
+ORG SZW
+ORG Taalwegwijzer
+ORG Tageszeitung
+ORG Taliban
+ORG Tamiltijgers
+ORG Tamil Tijgers
+ORG Taxi-stop
+ORG TCS Amsterdam
+ORG Team Cologne
+ORG Team-Radin
+ORG TEC
+ORG Technical Services
+ORG Technische Universiteit
+ORG Technische Universiteit Delft
+ORG Tee Set
+ORG Tel Aviv Universiteit
+ORG Teleac
+ORG Télé Bruxelles
+ORG Telecom Italia
+ORG Telecommunicatie
+ORG Telecom Serbia
+ORG Telefonica
+ORG Telegraaf
+ORG Telekom
+ORG Telekurs
+ORG Telenet
+ORG Telepact
+ORG Teletekst
+ORG Teletekst Ondertiteling
+ORG Telfort
+ORG Telinfo
+ORG Tel Sell
+ORG Telstar
+ORG Ten Cate
+ORG Tennet
+ORG Ter Leede
+ORG Terre des Hommes
+ORG Tessenderlo Chemie
+ORG Test-Aankoop
+ORG Tetra Laval
+ORG Texaco
+ORG Texas
+ORG Textiel Twenthe
+ORG TF1
+ORG Thales
+ORG Theater Zuidpool
+ORG The Attractions
+ORG The Bee Gees
+ORG The Blues Brothers Band
+ORG The Cardigans
+ORG The Clash
+ORG The Coca-Cola Company
+ORG The Cousins
+ORG The Doors
+ORG The Eagles
+ORG The Economist
+ORG The Flying Dewaele Brothers
+ORG The Guardian
+ORG The Independent on Sunday
+ORG The Jakarta Post
+ORG The Lancet
+ORG The London SS
+ORG The New York Times
+ORG Theo en Thea
+ORG The Police
+ORG Therapy ?
+ORG The Scene
+ORG The Scotsman
+ORG The Sunday Times
+ORG The Telegraph
+ORG The Times
+ORG The Wall Street Journal
+ORG The Washington Post
+ORG The Wembley Observer
+ORG The Who
+ORG The World Conservation Union
+ORG Think
+ORG Think-Media
+ORG Think Media Concepts
+ORG Thomas Cook
+ORG Thomson Multimedia
+ORG TIC
+ORG Tie Holding
+ORG TIE Holding
+ORG Tigrean People's Liberation
+ORG Tigrean People's Liberation Front
+ORG Tijdschrift De Katholieke Illustratie
+ORG Time
+ORG Time Magazine
+ORG Tinbergen Instituut
+ORG Tiscali
+ORG Tito Puente
+ORG TLC
+ORG TLN
+ORG TMP Worldwide
+ORG TNO
+ORG TNO Bouw
+ORG TNT
+ORG TNT Postgroep
+ORG TNT Post Groep
+ORG Toblerone
+ORG Toerisme
+ORG Toerisme Oostkantons
+ORG Toerisme Vlaanderen
+ORG TOGR
+ORG Toneelhuis
+ORG TONEGIDO
+ORG TONEGIDO / H. Bluf
+ORG Top Bree
+ORG Top Oss
+ORG TOP Oss
+ORG TOP / Oss
+ORG Tories
+ORG Torpedo
+ORG TotalFina
+ORG TotalfinaElf
+ORG TotalFinaElf
+ORG Tottenham
+ORG Tottenham Hotspur
+ORG Touré Kunda
+ORG Touring
+ORG Toyota
+ORG TPG
+ORG TPLF
+ORG Trabzonspor
+ORG Tractebel
+ORG Transport
+ORG Transport en Logistiek Nederland
+ORG Trappers
+ORG Treffers
+ORG Treffers / Kegro
+ORG Treffers / Lelystad
+ORG Trendbox
+ORG T-Rex
+ORG T&R Heidelberg
+ORG Tribunaal
+ORG Triestana
+ORG Triestina
+ORG Trish and Kash
+ORG Tros
+ORG Trouw
+ORG Troyes
+ORG TRT
+ORG Tsjechie
+ORG Tsvi Vered
+ORG T&T
+ORG TTV Varese
+ORG TUI
+ORG Tulip Computers
+ORG Tupperware
+ORG Turkish Airlines
+ORG Turkiyemspor
+ORG Türkiyemspor
+ORG Turks Islamitische Culturele Federatie
+ORG TV1
+ORG TV 1
+ORG TVM-ploeg
+ORG TVN
+ORG TV Rijnmond
+ORG Tweede Kamer
+ORG Twence
+ORG Twence bv afvalverwerking
+ORG Twenteborgziekenhuis
+ORG Twentsche Kabel
+ORG Twins
+ORG Tyco
+ORG U2
+ORG UA
+ORG UAL
+ORG UAM
+ORG Ubizen
+ORG UCB
+ORG UCI
+ORG UDA
+ORG UDI'19
+ORG UDI'19 / Beter Bed
+ORG Udinese
+ORG Uefa
+ORG UEFA
+ORG UFK
+ORG UFSIA
+ORG UIA
+ORG Uitgeversbedrijf Tijd
+ORG Uitvoerend Comité
+ORG Ulftone
+ORG Ultravox
+ORG UMCU
+ORG Umicore
+ORG UNA
+ORG Underworld
+ORG UNFPA
+ORG UNHCR
+ORG Uniao Leiria
+ORG Unicef
+ORG Unie
+ORG Unie MHP
+ORG Unie van de Filmkritiek
+ORG Unie van Waterschappen
+ORG Uni-Invest
+ORG Unilever
+ORG Union Beaver
+ORG Union Carbide
+ORG Unit 4
+ORG Unit4Agresso
+ORG Unit4 Agresso
+ORG Unita
+ORG United
+ORG United Airlines
+ORG United Architects
+ORG United Bicycles
+ORG United Service Group
+ORG United Services Group
+ORG Universiteit Leiden
+ORG Universiteit Twente
+ORG Universiteit van Amsterdam
+ORG Universiteit van Californie
+ORG Universiteit van Nijmegen
+ORG Universiteit van Tilburg
+ORG Unizo
+ORG Unmovic
+ORG Unprofor
+ORG UNPROFOR
+ORG UNRWA
+ORG UNSCOM
+ORG UPC
+ORG Uproar
+ORG Urban Trad
+ORG US Airways
+ORG USA Olympic Team
+ORG USA Today
+ORG USB Warburg
+ORG US Postal
+ORG UT
+ORG Utregs Glorie
+ORG U-Unet Diegem
+ORG UZSC
+ORG V8
+ORG VAB
+ORG VADA / Rentokil
+ORG Valencia
+ORG Valentino
+ORG Vallecano
+ORG Val-Saint-Lambert
+ORG Van der Hoop
+ORG Van der Hoop Effecten
+ORG Van der Moolen
+ORG VanDer Moolen
+ORG Van der Sluijs
+ORG Van der Valk
+ORG Van Dik Hout
+ORG Van Heek-Tweka
+ORG Van Herwaarden
+ORG Vanity Fair
+ORG Van Lanschot
+ORG Van Lanschot Bankiers
+ORG Van Zijderveld
+ORG Vara
+ORG VARA
+ORG Varzim
+ORG Vasas
+ORG Vasas Boedapest
+ORG Vasco de Gama
+ORG Vastiau Leuven
+ORG Vastned Off/Ind
+ORG Vastned Retail
+ORG Vaticaan
+ORG VBO
+ORG VCB
+ORG vc Omniworld
+ORG VC Weert
+ORG V & D
+ORG VDAB
+ORG VDN Salamanders
+ORG Vedior
+ORG Veiligheid
+ORG Veiligheidsraad
+ORG Vendex
+ORG VendexKBB
+ORG Vendex KBB
+ORG VenI
+ORG Ventspils
+ORG Verbond van Belgische Ondernemingen
+ORG Verbond van Kristelijke Werkgevers
+ORG Verbond van Verzekeraars
+ORG Verenigde Naties
+ORG Verenigde Staten van Europa
+ORG Vereniging Milieu Offensief
+ORG Vereniging voor Vrijwillige Euthanasie
+ORG Verkeer
+ORG Verkeer en Waterstaat
+ORG Verkeers Informatie Dienst
+ORG Veronica
+ORG Versatel
+ORG Versatel Telecom
+ORG Vestide
+ORG VEV
+ORG VfB Stuttgart
+ORG VfL Bochum
+ORG VfL Wolfsburg
+ORG VHM
+ORG VHS
+ORG VI
+ORG V&I
+ORG Via Net.Works
+ORG Viborg
+ORG Vicenza
+ORG Vicindo
+ORG Vicindo Group
+ORG VID
+ORG Vilenzo International
+ORG Villarreal
+ORG Vini Caldirola
+ORG Vinkenslag
+ORG Virgin
+ORG Virgin Atlantic
+ORG Virgin Blue
+ORG Virgin Classics
+ORG Virgin Express
+ORG VirusAlert
+ORG Visserij
+ORG Vitalicio
+ORG Vitesse
+ORG Vito
+ORG Vitoria Guimaraes
+ORG Vitoria Setubal
+ORG Vitra
+ORG Vivendi
+ORG Vivendi Universal
+ORG Viventures II
+ORG VIZO
+ORG V & L
+ORG V&L
+ORG Vlaams Blok
+ORG Vlaams Bok-Aalst
+ORG Vlaamse Club
+ORG Vlaamse Club voor Kunst , Wetenschap en Letteren
+ORG Vlaamse Confederatie van de Bouw
+ORG Vlaams Economisch Verbond
+ORG Vlaamse Gemeenschap
+ORG Vlaamse Huisvestingsmaatschappij
+ORG Vlaamse Kamers van Handel en Nijverheid
+ORG Vlaamse Volksbeweging
+ORG Vlaams Huisartsensyndicaat
+ORG Vlaams Katholiek Secundair Onderwijs
+ORG Vlaams Komitee Brussel
+ORG Vlaams Minderhedencentrum
+ORG Vlaams netwerk tegen financiële speculatie
+ORG Vlaams Parlement
+ORG Vlaams Radio Koor
+ORG Vlaams Radio Orkest
+ORG Vlan
+ORG VLD
+ORG VLD Kapellen
+ORG VLM
+ORG VLM Airlines
+ORG Vluchtelingenorganisaties Nederland
+ORG VluchtelingenWerk
+ORG Vluchtelingenwerk Nederland
+ORG VluchtelingenWerk Nederland
+ORG VMC
+ORG VMH
+ORG VMO
+ORG VMV
+ORG VN
+ORG VNG
+ORG VNO NCW
+ORG VNO / NCW
+ORG VNO-NCW
+ORG VN-oorlogstribunaal
+ORG VN-tribunaal
+ORG VN-Tribunaal
+ORG VNU
+ORG VN-Veiligheidsraad
+ORG VOC
+ORG Vodafone
+ORG Voedselagentschap
+ORG Vogelbescherming
+ORG Vogelbescherming Vlaanderen
+ORG VOKA
+ORG Volewijckers
+ORG Volker Wessels Stevin
+ORG Volksgezondheid
+ORG Volksgezondheid , Welzijn en Sport
+ORG Volkshuisvesting , Ruimtelijke Ordening en Milieubeheer
+ORG Volkshuisvesting , Ruimtelijk Ordening en Milieubeheer
+ORG Volkskrant
+ORG Volkswagen
+ORG Volkswagen Brussel
+ORG Volvo
+ORG VON
+ORG Voorburg CC
+ORG Voorlichting Tweede Kamer
+ORG Voort / Quintus
+ORG Vooruitgangspartij
+ORG Vopak
+ORG VPRO
+ORG VRA
+ORG V-raad
+ORG V-Raad
+ORG Vranken Monopole
+ORG Vredeseilanden
+ORG Vredestein
+ORG Vreemdelingenbeleid en Integratie
+ORG Vreemdelingen- en Integratiebeleid
+ORG Vreemdelingenzaken
+ORG Vreemdelingenzaken en Integratie
+ORG Vrevok
+ORG Vrienden van het Hof
+ORG Vrij Atjeh
+ORG Vrije Fuchsiavrienden
+ORG Vrije Universiteit
+ORG Vrije Universiteit Brussel
+ORG Vrij Nederland
+ORG VRO
+ORG VROM
+ORG Vrouwen Overlegcomité
+ORG VRT
+ORG VSB
+ORG VT4
+ORG VT5
+ORG VTM
+ORG VTM Big Band
+ORG VU
+ORG VUB
+ORG VU & ID
+ORG VU & ID-fractie
+ORG VVBW
+ORG VVC
+ORG VVD
+ORG VVKSO
+ORG VVMC
+ORG VVOG
+ORG VVV
+ORG VW
+ORG V & W
+ORG V&W
+ORG VWS
+ORG VW Vorst
+ORG V.Z.V.
+ORG Waals Parlement
+ORG Waardig Ouder Worden
+ORG WADA
+ORG Wagon-Lits
+ORG Wagon-Lits België
+ORG Wall Street Journal
+ORG Wal-Mart
+ORG Wanadoo
+ORG Wanadoo Belgium
+ORG Warner
+ORG Warner Bros.
+ORG Washington Post
+ORG Washington Wizards
+ORG Waspo Hannover
+ORG Waterleau
+ORG Wealer / V & L
+ORG Wealer / V&L
+ORG Weekend Knack
+ORG Weekmedia
+ORG Weert
+ORG Wegener
+ORG Wegenwacht
+ORG Weismuller
+ORG Welvaartspartij
+ORG Werder Bremen
+ORG Wereldbank
+ORG Wereldhandelsorganisatie
+ORG Wereldhave
+ORG Wereldomroep
+ORG Wessanen
+ORG West Bromwich Albion
+ORG Westerlo
+ORG West Ham
+ORG West Ham United
+ORG Westlandia
+ORG Wetenschappelijke Raad voor het Regeringsbeleid
+ORG Wetenschappelijk Platform Zeehonden Waddenzee
+ORG Wetenschappen
+ORG WFP
+ORG WHC
+ORG WHO
+ORG Wienerberger
+ORG Wiener Stddtische Insurance Group
+ORG Wijnegem Shopping
+ORG Wilde Kokkels
+ORG Willem II
+ORG William Morrison Supermarkets
+ORG Wisla Krakow
+ORG WO
+ORG Wolfsburg
+ORG Wolters Kluwer
+ORG Wolters Noordhoff
+ORG Women's Quarterly
+ORG Women's Wear Daily
+ORG Woonzorg Nederland
+ORG WorldCom
+ORG World Conservation Union
+ORG World Food Program
+ORG World Islamic League
+ORG World Soccer
+ORG World Trade Organisation
+ORG WOW
+ORG Wrakingskamer
+ORG WRR
+ORG WTA
+ORG WTO
+ORG WWF
+ORG Xanthi FC
+ORG Xerez
+ORG Xerox
+ORG XminY
+ORG XXIième Siècle
+ORG Yakki Famirie
+ORG Yankees
+ORG Yediot Ahronoth
+ORG Yokohama Marinos
+ORG Yorin
+ORG Zalaegerszeg
+ORG Zalambessa
+ORG Zamet Crotek Rijeka
+ORG Zap Mama
+ORG ZDF
+ORG Zeeman
+ORG Zeeuws-Vlaanderen
+ORG Zeevaartschool
+ORG Zeljeznicar
+ORG Zending Gereformeerde Gemeenten
+ORG Zenit Sint P.
+ORG Ziegler
+ORG Zizkov
+ORG ZMP
+ORG ZN
+ORG Zoomers / Dynamo
+ORG Zorgverzekeraars Nederland
+ORG ZORRA
+ORG Zusters
+ORG Zwart Wit'28
+ORG Zwitsal
+ORG ZWV-Nereus
+ORG ZZ Top

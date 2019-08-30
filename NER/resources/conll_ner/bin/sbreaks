@@ -1,0 +1,24 @@
+#!/usr/bin/perl -w
+# sbreaks: add sentence breaks (empty lines) to file containing one
+#          word per line
+# usage:   sbreaks < file
+# 20020415 erikt@uia.ua.ac.be
+
+$prevWord = "";
+$sawBreak = 0;
+while (<STDIN>) {
+   $line = $_;
+   chomp($line);
+   ($word) = split(/\s+/,$line);
+   if ($prevWord =~ /^[!?\.]+$/ and 
+       ($word =~ /^[A-Z0-9(]/ or $word =~ /^["'`]/ or $word =~ /^[-=]+$/)) { 
+      print "\n"; 
+      $sawBreak = 1;
+   } elsif (($prevWord eq "-" or $prevWord =~ /^=+$/) and $sawBreak) { 
+      print "\n"; 
+      $sawBreak = 1;
+   } else { $sawBreak = 0; }
+   if ($word ne "-" or $prevWord ne "-") { print "$line\n"; }
+   $prevWord = $word;
+}
+exit(0);

@@ -1,0 +1,22 @@
+#!/usr/bin/perl -w
+# revealLemmas: reveal hidden lemmas (lemma == word)
+# usage: revealLemma < file
+# 20030326 erikt@uia.ua.ac.be
+
+while (<STDIN>) {
+   $line = $_;
+   chomp($line);
+   if ($line =~ /^\s*$/) { print "\n"; }
+   else {
+      ($word,$lemma,$pos,$chunk,$ne) = split(/\s+/,$line);
+      if ($lemma eq "<word>") { $lemma = $word; }
+      if ($word eq "-DOCSTART-") {
+         $lemma = "-X-"; $pos = "-X-"; $chunk = "-X-";
+      }
+      print "$word $lemma $pos $chunk";
+      if (defined $ne) { print " $ne\n"; }
+      else { print "\n"; }
+   }
+}
+exit(0);
+

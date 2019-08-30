@@ -1,0 +1,13 @@
+20060126 UPDATED GERMAN ANNOTATIONS
+
+
+In order to obtain train and test files associated with these i
+revised annotations you should do the following:
+
+1. copy ner/etc.2006/tags.deu to ner/etc/tags.deu
+2. run ner/bin/make.deu
+
+See guide.pdf and revision.txt for more information.
+
+
+Sven Hartrumpf <sven.hartrumpf@fernuni-ragen.de>

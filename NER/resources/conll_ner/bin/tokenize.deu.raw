@@ -1,0 +1,214 @@
+#!/usr/bin/perl -w
+# tokenize.deu: tokenize ECI German text files in data/eci1/ger03
+# usage:        tokenize.deu < file
+# notes:        separates punctuation signs from word ends
+#               puts every sentence on a separate lines
+# 20030218 erikt@uia.ua.ac.be
+
+# problems:
+# SOLVED 10. Jahrhundert
+# SOLVED schma- len
+# SOLVED Heinrich III.
+
+use strict;
+
+my ($i,$j,$w,
+    $buffer,$inArticle,$inHead,$line,
+    @words1,@words2,
+    %abbrev);
+
+$buffer = "";
+$inHead = 0;
+$inArticle = 0;
+&makeAbbrev();
+LOOP: while (<STDIN>) {
+   $line = $_;
+   chomp($line);
+   if ($inHead and $line =~ /^[A-Z"]/) { $line = "<p> $line"; }
+   @words1 = split(/\s+/,$line);
+   $i = 0;
+   $j = 0;
+   @words2 = ();
+   while ($i <= $#words1) {
+      $words2[$j] = $words1[$i];
+      while ($words2[$j] =~ /</ and $words2[$j] !~ />/ and $i < $#words1) {
+         $i++;
+         $words2[$j] .= " $words1[$i]";
+      }
+      $i++;
+      $j++;
+   }
+   foreach $w (@words2) { 
+      if ($w =~ /^</) {
+         if ($w =~ /^<p>$/i or $w =~ /^<p\s.*>$/i) {
+            &tokenize($buffer);
+            $buffer = "";
+         }
+         if ($w =~ /^<head/i) {
+            if ($buffer) { &tokenize($buffer); }
+            $buffer = "";
+            $inHead = 0; # unfortnately there are too many head tag errors
+            $inArticle = 1;
+            print "-DOCSTART-\n";
+         } elsif ($w =~ /^<\/head/i) {
+            $inHead = 0;
+         }
+         if ($w =~ /^<div1 .*type=article/i) {
+            $inArticle = $inArticle;
+#           $inArticle = 1;
+#           $buffer = "";
+#           print "-DOCSTART-\n";
+         } elsif ($w =~ /^<\/div1/i) {
+            &tokenize($buffer);
+            $buffer = "";
+            $inArticle = 0;
+         }
+      } elsif ($w =~ /^\s*$/) {
+         &tokenize($buffer);
+         $buffer = "";
+      } elsif ($inArticle) {
+         $buffer = $buffer ? "$buffer $w" : $w;
+      }
+   }
+}
+exit(0);
+
+sub tokenize {
+   my ($buffer,$word,
+       @words);
+
+   $buffer = shift(@_);
+   if ($buffer =~ /^\s*$/) { return(); }
+   @words = split(/\s+/,$buffer);
+   $line = "";
+   $i = 0;
+   while ($i <= $#words) {
+      # remove punctuation from start of word
+      if ($words[$i] =~ /^(["'\(\)\[\]\$:;,\/\%\*])(.+)$/ and 
+          $words[$i] !~ /^'[dsm]$/i and $words[$i] !~ /^'re$/i and
+          $words[$i] !~ /^'ve$/i and $words[$i] !~ /^'ll$/i) {
+         splice(@words,$i,1,$1,$2);
+         $i++;
+      # remove sentence breaking punctuation with quote from end of word
+      } elsif ($words[$i] =~ /^(.+)([?!\.])(["'])$/) {
+         splice(@words,$i,1,$1,"$2$3","\n");
+      # combine periods
+      } elsif ($words[$i] =~ /^\.+$/ and $i < $#words and
+               $words[$i+1] =~ /^\.+$/) { # adding "' doesn't work?!
+         splice(@words,$i,2,$words[$i].$words[$i+1]);
+      # add sentence breaks when punctuation was not detected
+      } elsif (($words[$i] =~ /^[?!\.]$/ or $words[$i] =~ /^\.+$/) and 
+               $i < $#words and $words[$i+1] ne "\n") {
+         splice(@words,$i+1,0,"\n");
+      # remove non-sentence-breaking punctuation from end of word
+      } elsif ($words[$i] =~ /^(.+)([;,"'\)\(\[\]\%\/])$/) {
+         splice(@words,$i,1,$1,$2);
+      # remove sentence-breaking punctuation (not period) from end of word
+      } elsif ($words[$i] =~ /^(.+)([:?!])$/ or
+               $words[$i] =~ /^(.+[^\.])(\.\.+)$/) {
+         splice(@words,$i,1,$1,$2,"\n");
+      # separate currency symbol from value
+      } elsif ($words[$i] =~ /^([A-Za-z]+\$)(.+)$/i) {
+         splice(@words,$i,1,$1,$2);
+         $i++;
+      # separate currency symbol other symbols
+      } elsif ($words[$i] =~ /^(.*)-\$(.*)$/i) {
+         splice(@words,$i,1,$1,"-","\$",$2);
+         $i++;
+      # split words like we're did't etcetera
+      } elsif ($words[$i] =~ /^(.+)('re|'ve|'ll|n't|'[dsm])$/i) {
+         splice(@words,$i,1,$1,$2);
+      # split words with punctuation in the middle
+      } elsif ($words[$i] =~ /^(.*[a-z:].*)([",?!\(\)])(.*[a-z\-].*)$/i) {
+         splice(@words,$i,1,"$1$2",$3);
+      # separate words linked with sequence (>=2) of periods
+      } elsif ($words[$i] =~ /^(.*[^\.])(\.\.+)([^\.].*)$/) {
+         splice(@words,$i,1,"$1$2",$3);
+      # remove initial hyphens from word
+      } elsif ($words[$i] =~ /^(-+)([^\-].*)$/ and $words[$i] ne "-DOCSTART-") {
+         splice(@words,$i,1,$1,$2);
+      # separate number and word linked with hyphen
+      } elsif ($words[$i] =~ /^([0-9\/]+)-([A-Z][a-z].*)$/) {
+         splice(@words,$i,1,$1,"-",$2);
+      # separate number and word linked with period
+      } elsif ($words[$i] =~ /^([0-9\/]+)\.([A-Z][a-z].*)$/
+               and not &abbrev($1)) {
+         splice(@words,$i,1,"$1.",$2);
+      # separate words linked with .-
+      } elsif ($words[$i] =~ /^(.*)\.-([A-Z][a-z].*)$/ and
+               not &abbrev($1)) {
+         splice(@words,$i,1,"$1.","-",$2);
+      # separate words linked with sentence-breaking period
+      } elsif ($words[$i] =~ /^(.*)\.([A-Z][a-z].*)$/ and
+               not &abbrev($1)) {
+         splice(@words,$i,1,"$1.",$2);
+      # separate initial from name
+      } elsif ($words[$i] =~ /^([A-Z]\.)([A-Z][a-z].*)$/) {
+         splice(@words,$i,1,$1,$2);
+      # introduce sentence break after number followed by period
+      } elsif ($i != 0 and $words[$i] =~ /^(.*[0-9])(\.)$/) {
+         splice(@words,$i,1,$1,$2,"\n");
+      # split words containing a slash if they are not a URI
+      } elsif ($words[$i] !~ /^(ht|f)tps*/i and 
+               $words[$i] =~ /[^0-9\/\-]/ and
+               $words[$i] =~ /^(.+)\/(.+)$/) {
+         splice(@words,$i,1,$1,"/",$2);
+      # put sentence break after period if it is not an abbreviation
+      } elsif ($words[$i] =~ /^.+\.$/ and $words[$i] !~ /^\.+$/) {
+         $words[$i] =~ /^(.+)\.$/;
+         $word = $1;
+         if (&abbrev($word)) { 
+            $i++;
+         } else { 
+            splice(@words,$i,1,$1,".","\n");
+         }
+      # combine words that were hyphenated and split
+      } elsif (defined $words[$i+1] and $words[$i] =~ /-$/ and
+               $words[$i] =~ /[a-zA-Z]/ and $words[$i+1] =~ /[a-zA-Z]/ and
+               $words[$i+1] !~ /^(und|ob|wie|oder|\"|,)$/i) {
+         if ($words[$i] !~ /-./ and $words[$i+1] !~ /-/) { 
+            $words[$i] =~ s/-$//;
+         }
+         $words[$i] .= $words[$i+1];
+         splice(@words,$i+1,1);
+      } else { 
+         # add periods to numbers
+         if ($i > 1 and $words[$i] eq "." and
+             $words[$i-1] =~ /^[0-9]+$|^[CILMVX][CILMVX]+$/ and
+             $words[$i-2] !~ /^[0-9]+$|straﬂe$|allee$|anger$|feld$|jahr|:/i) {
+            $words[$i-1] .= ".";
+            splice(@words,$i,1);
+            if ($words[$i] eq "\n") { splice(@words,$i,1); }
+         } else { $i++; }
+      }
+   }
+   if ($words[$#words] ne "\n") { push(@words,"\n"); }
+   $line = join(" ",@words);
+   $line =~ s/ ([?!\.]) \n (["']) / $1 $2 \n /g;
+   $line =~ s/ (:) (["']) \n / $1 \n $2 /g;
+   $line =~ s/ *\n */\n/g;
+   print $line;
+}
+
+sub makeAbbrev {
+   my ($a,
+       $abbrev,
+       @abbrev);
+
+   $abbrev = "bd bde bor bzw di do dr ev ffm fr mi mo no nr op prof sa so spvgg st th theod";
+   @abbrev = split(/\s+/,$abbrev);
+   foreach $a (@abbrev) { $abbrev{$a} = 1; }
+   return();
+}
+
+sub abbrev {
+   my ($word);
+
+   $word = shift(@_);
+   $word =~ tr/[A-Z]/[a-z]/;
+   if ($word =~ /\./ and $word !~ /[0-9]/) { return(1); };
+   if ($word =~ /^[a-z]$/) { return(1); };
+   if ($word =~ /str$/) { return(1); };
+   return(defined $abbrev{$word});
+}
+

@@ -1,0 +1,61 @@
+#!/usr/bin/perl -w
+# xml2wsj: convert Alpino xml format to WSJ bracket format
+# usage:   xml2wsj files
+# 20021218 erikt@uia.ua.ac.be
+
+use strict;
+
+my ($i,$t,
+    $file,$headlineSeen,$outFile,$line,$text,
+    @tmp,@tokens);
+
+# for each file
+LOOP1: foreach $file (@ARGV) { if ($file =~ /xml$/i) {
+   # open file, store it in buffer $text
+   if (not open(INFILE,$file)) {
+      print STDERR "cannot open $file for reading\n";
+      next LOOP1 ;
+   }
+   $text = "";
+   while (<INFILE>) { 
+      $line = $_;
+      chomp($line);
+      $text .= $line;
+   }
+   close(INFILE);
+   # divide file in tags/non-tags; store in @tokens
+   @tmp = split(/([<>])/,$text);
+   @tokens = ();
+   $i = 0;
+   foreach $t (@tmp) {
+      if ($t eq "<") { 
+         if (defined $tokens[$i]) {
+            if ($tokens[$i] =~ /^</) { die "embedded tag: cannot happen\n"; }
+            $i++; 
+         }
+         $tokens[$i] = $t; 
+      } elsif (defined $tokens[$i]) {
+         $tokens[$i] .= $t;
+      } else { $tokens[$i] = $t; }
+     if ($t eq ">") { $i++; }
+   }
+   if (defined $tokens[$i] and $tokens[$i] =~ /^</) { 
+      die "open tag: cannot happen\n";
+   }
+   # store text (not xml tags) in output file
+   $outFile = $file;
+   $outFile =~ s/xml$/txt/i;
+   if (not open(OUTFILE,"|../bin/htmlize -r > $outFile")) {
+      print STDERR "cannot open $outFile for writing\n";
+      next LOOP1;
+   }
+   $headlineSeen = 0;
+   LOOP2: foreach $t (@tokens) {
+      if ($t =~ /<headline/i) { $headlineSeen = 1; }
+      if ($headlineSeen and 
+          $t !~ /^\s*$/ and $t !~ /^<.*>$/) { print OUTFILE "$t\n\n"; }
+      if ($t =~ /<\/text>/i) { last LOOP2; } # stop when </text> was seen
+   }
+   close(OUTFILE);
+}}   
+exit(0);
